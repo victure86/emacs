@@ -1,0 +1,27 @@
+reload_file
+M-x revert-buffer
+M-x global-linum-mode
+M-g M-g
+C-x C-q
+C-@ M-w
+
+
+
+
+win7
+8540p
+
+Create a new repository on the command line
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+git remote add origin https://github.com/victure86/emacs.git
+git push -u origin master
+
+
+git clone https://github.com/victure86/crash.git
+cd crash
+git remote add upstream https://github.com/crash-utility/crash.git
+git fetch upstream
