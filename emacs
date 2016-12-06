@@ -1,6 +1,7 @@
 ;;LOAD_PATH       
 (add-to-list 'load-path' "~/.emacs.d/site-lisp")
 
+b;
 ;;auto load cscope and ctags
 (require 'xcscope)
 (setq tags-file-name "./TAGS")
