@@ -1,7 +1,6 @@
 ;;LOAD_PATH       
 (add-to-list 'load-path' "~/.emacs.d/site-lisp")
 
-b;
 ;;auto load cscope and ctags
 (require 'xcscope)
 (setq tags-file-name "./TAGS")
@@ -10,6 +9,9 @@ b;
 (require 'color-theme)
 (color-theme-initialize)
 (color-theme-clarity)
+
+;; warn when opening files bigger than 500MB
+(setq large-file-warning-threshold 500000000)
 
 ;;replace yes/no with y/n
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -31,14 +33,17 @@ b;
 ;;set kill ring buffer number
 (setq kill-ring-max 200)
 
+;;stop bell
+(setq visible-bell t)
+
 ;;auto decompression when open a file
 (auto-compression-mode 1)
 
 ;;indent
 (setq c-basic-offset 4)
 (setq indent-tabs-mode nil)
-(setq default-tab-width 4)
-(setq tab-width 4)
+(setq default-tab-width 8)
+(setq tab-width 8)
 (setq tab-stop-list ())
 (loop for x downfrom 40 to 1 do
 (setq tab-stop-list (cons (* x 4) tab-stop-list)))
