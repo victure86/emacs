@@ -1,0 +1,3158 @@
+account
+addtional security
+yglgvjckptdtzndg
+
+1014345
+
+jiawan04
+
+
+jianlew
+wangqin83
+
+pin
+jiawan04
+165165
+
+questions
+qinqing
+13761005067
+badminton
+
+
+snipping
+
+
+PATH
+
+sudo mount -t cifs -o username="jiawan04",password="windows passwd" //apshanas02.shanghai.arm.com/projects /apshanas02-projects
+cd / && sudo ln -s /apshanas02-projects/ivg/AssertiveCamera/exports
+
+//apshanas02.shanghai.arm.com/projects /apshanas02-projects cifs username=<jiawan04>,password=<windows passwd> 0 0
+
+\\apshanas01.shanghai.arm.com\public\IVG
+\\apshanas02.shanghai.arm.com\projects
+
+
+Server
+192.168.60.21
+
+
+
+C:\Disk_E\fsm-editor
+java -jar fsm-editor.jar
+
+
+set bootargs console=ttyAMA0,115200n8 root=/dev/sda2 rw rootwait earlycon=pl011,0x7ff80000 debug systemd.log_target=null user_debug=31 androidboot.hardware=juno loglevel=9 mem=1g memmap=1g$7g
+env save;boot
+
+
+
+concur pin
+137165
+
+
+
+run stratix
+itagconfig
+make load_sof load_elf && nios2-terminal -i 0
+
+
+Windows ACT CMD
+cd C:\Disk_E\act-3.2.6.0-x86_64-win32
+
+act-server.exe --hw-channel i2c --devices 
+act-server.exe --hw-channel i2c --fw-acc hw
+
+act-server.exe --hw-acc direct --fw-acc hw
+act-server.exe --fw-acc hw
+
+./act-server --hw-channel i2c --devices
+./act-server --hw-channel i2c --fw-acc hw
+
+browse
+http://10.169.20.64:8000/
+Need:
+Upload new XML file
+Upload new firmware API
+
+
+
+
+
+subst e: C:\Disk_E
+subst f: C:\Disk_F
+
+
+
+
+
+
+https://apical-imaging.com/7353772/
+l: djiup
+pass: gier2Wua
+
+
+
+
+
+
+mount -o nolock 10.169.20.66:/home/wangjl/image/nfs test
+scp -r img/  wangjl@10.169.20.66:/home/wangjl/image/nfs
+scp -r IMG_RAW  wangjl@10.169.20.66:/home/wangjl/image/nfs/img
+  
+
+
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+
+
+
+control shift +
+control a -
+
+
+apt
+sudo apt-cache search xxx
+
+
+sudo apt-get install i2c-tools
+
+
+
+lsblk
+sudo dd if=juno_oe_lamp.img of=/dev/sdc
+sudo watch -n 5 killall -USR1 dd
+
+
+
+scp isp.ko root@10.169.20.81:/home/root/
+
+10.169.20.66
+console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 root=/dev/nfs rootwait rw init=init selinux=0 nfsroot=10.169.20.66:/home/wangjl/image/nfs androidboot.hardware=juno
+
+- VenHw(E7223039-5836-41E1-B542-D7EC736C5E59)/norkern
+- Arguments: dtb=board.dtb initrd=ramdisk.img console=ttyAMA0,115200 androidboot.hardware=juno rootwait root=/dev/sda2 sky2.mac_address=0x00,0x02,0xF7,0x00,0x6C,0x66
+FDT Device Paths
+- VenHw(E7223039-5836-41E1-B542-D7EC736C5E59)/board.dtb
+
+
+dtb=juno.dtb
+console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/nfs nfsroot=10.169.20.25:/home/wangjl/image/nfs/nfsroot=10.169.20.25:/home/wangjl/image/nfs/,tcp,v3 rw ip=dhcp androidboot.hardware=juno androidboot.selinux=disable
+
+[1] Linaro image in NOR Flash
+        - VenHw(E7223039-5836-41E1-B542-D7EC736C5E59)/norkern
+        - Arguments: dtb=board.dtb console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/sda1 rw ip=dhcp rootwait
+[2] juno_ad
+        - MAC(0002F7006C65,0x1)/IPv4(10.169.20.25)/Image
+        - Arguments: console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init  root=/dev/sda1 rw ip=dhcp rootwait
+        - LoaderType: Linux kernel with FDT support
+[3] nfs
+        - MAC(0002F7006C65,0x1)/IPv4(10.169.20.25)/Image
+        - Arguments: console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/nfs
+		nfsroot=10.169.20.25:/home/wangjl/image/nfs/,tcp,v3 rw ip=dhcp androidboot.hardware=juno androidboot.selinux=disable
+        - LoaderType: Linux kernel with FDT support
+
+u disk:
+console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/sda1 rw ip=dhcp rootwait
+
+
+svn --force-interactive export http://trd-svn1.trondheim.arm.com/svn/mpd/midgard_sw/driver/binaries//product/x11/thirdparty/lib64/libX11-xcb.so.93e0bf018eabc5e47a96674534178e65a4f41884 /ssd/codes/android/graphics/.binary_cache/product/x11/thirdparty/lib64/libX11-xcb.so.93e0bf018eabc5e47a96674534178e65a4f41884 --username jiawan04 --password Qinqinqing83
+
+
+
+working bootargs
+
+[1] Linaro image in NOR Flash
+        - VenHw(E7223039-5836-41E1-B542-D7EC736C5E59)/norkern
+        - Arguments: dtb=board.dtb console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/i init=/init root=/dev/nfs nfsroot=10.169.20.25:/home/wangjl/image/nfs/,tcp,v3 rw ip=dhcp androidboot.hardware=e
+[2] nfs
+        - MAC(0002F7006C65,0x1)/IPv4(10.169.20.25)/Image
+        - Arguments: console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/nfs nfsroot=10.169.20.25:/home/wangjl/image/nfs/,tcp,v3 rw ip=dhcp androidboot.hardware=juno androidboot.seline
+        - LoaderType: Linux kernel with FDT support
+[3] u disk
+        - MAC(0002F7006C65,0x1)/IPv4(10.169.20.25)/Image
+        - Arguments: console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/sda1 rw ip=dhcp rootwait
+        - LoaderType: Linux kernel with FDT support
+-----------------------
+FDT Device Paths
+        - MAC(0002F7006C65,0x1)/IPv4(10.169.20.25)/juno-r2.dtb
+
+		
+		
+
+set bootargs console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/nfs nfsroot=10.169.20.25:/home/wangjl/image/nfs/,tcp,v3 rw ip=dhcp androidboot.hardware=juno androidboot.seline
+env save
+
+
+isp:
+set bootargs console=ttyAMA0,115200n8 root=/dev/sda2 rw rootwait earlycon=pl011,0x7ff80000 debug systemd.log_target=null user_debug=31 androidboot.hardware=juno loglevel=9 mem=1g memmap=1g$7g
+env save; boot
+
+
+
+insmod video-tx.ko
+insmod test-video-tx.ko
+insmod senc_tx.ko
+insmod mali-dp.ko
+
+
+
+rmmod mali-dp
+rmmod senc_tx
+rmmod test_video_tx
+rmmod video_tx
+
+stop
+ip addr
+adb connect 10.169.20.81
+adb shell
+
+
+adb push out/target/product/juno/system/vendor/lib64/hw/gralloc.juno.so /system/vendor/lib64/hw
+adb push kernel/drivers/video/video-tx/video-tx.ko /
+adb push kernel/drivers/video/test-video-tx/video-tx.ko /
+adb push kernel/drivers/video/video-tx/test-video-tx.ko /
+adb push kernel/drivers/video/adf/arm/mali-dp.ko /
+
+adb push kernel/drivers/ad_drv.ko /
+
+
+rmmod ad_drv.ko
+insmod ad_drv.ko
+
+
+gralloc src
+cd android/gralloc/src/
+mm -B MALI_MMSS=1
+
+
+
+juno.dtb
+
+
+useradd -s /bin/bash -d /home/backup/zhuxf zhuxf
+sudo usermod -m -d /home/backup/fuzh fuzh
+
+
+
+
+
+rmmod isp
+
+sed -i "s/SENSOR_WDR_MODE_NO_HDR/WDR_MODE_LINEAR/g" `grep SENSOR_WDR_MODE_NO_HDR -rl .`
+sed -i "s/SENSOR_WDR_MODE_BAYER/WDR_MODE_FS_LIN/g" `grep SENSOR_WDR_MODE_BAYER -rl .`
+sed -i "s/WDR_MODE_FS_LIN_14_NO_TM/WDR_MODE_BAYER_14_NO_TM/g" `grep SENSOR_WDR_MODE_MF -rl .`
+
+
+sed -i "s/apical_ad_top_core1/ad_vc/g" `grep apical_ad_top_core1 -rl .`
+sed -i "s/apical_ad_top/ad/g" `grep apical_ad_top -rl kernel/drivers/`
+
+
+rename 's/af_lms/af_pd/' *
+
+
+
+
+
+
+
+
+sed -i "s/原字符串/新字符串/g" `grep 原字符串 -rl 所在目录`
+
+sed -i "s/imx377/imx298/g" `grep imx377 -rl .`
+sed -i "s/ \{0,100\}\t\{0,100\} \{0,100\}$//g" `grep " \{1,100\}" -rl .`
+
+rename 's/imx377/imx298/' *
+sed -i "s/imx377/imx298/g" `grep imx377 -rl .`
+sed -i "s/IMX377/IMX298/g" `grep IMX377 -rl .`
+
+rename 's/imx298/imx377/' *
+sed -i "s/imx298/imx377/g" `grep imx298 -rl .`
+sed -i "s/IMX298/IMX377/g" `grep IMX298 -rl .`
+
+
+rename 's/BU64748/BU64297/' *
+sed -i "s/BU64748/BU64297/g" `grep BU64748 -rl .`
+sed -i "s/bu64748/bu64297/g" `grep bu64748 -rl .`
+
+
+
+
+rename 's/imx377/imx362/' *
+sed -i "s/IMX377/IMX362/g" `grep IMX377 -rl .`
+sed -i "s/imx377/imx362/g" `grep imx377 -rl .`
+
+
+sed -i "s/{ \([A-Z_]*\),\(\t\{0,100\}\)/[ \1 ]= {/g" ad_hw_param.c
+
+sed -i "s/{ \([A-Z_0-9]*\),\(\t\{0,100\}\)/[ \1 \t] = { /g" ad_hw_param.c
+
+
+
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+
+
+cat /sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_cur_freq
+echo userspace > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+echo 1200000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_setspeed
+cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+
+
+
+
+
+
+Annual Leave, Sabbatical Leave, Sick Leave, Volunteering
+
+
+
+: Haijun Guo/ Product Applications Manager China;
+: Nick Dong/ Principal PPA Engineer
+: Zhifei Yang/Staff AE
+
+
+
+
+* Andrey Kulikov (Director Software Development, MIEG)
+* Dmitry Lamerov (Principal Software Developer, MIEG)
+* Eric Liu (Senior Software Developer, MIEG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set bootargs rdinit=/busybox/rdinit androidboot.console=ttyS2 console=ttyS2,115200 panic_debug reserve_pmem=0xc000000 emmc_boot fb_share
+set bootargs rdinit=/busybox/rdinit androidboot.console=ttyS2 console=ttyS2,115200 panic_debug reserve_pmem=0x15000000 emmc_boot fb_share
+tftp uImage_ys
+
+
+echo 0 > /sys/devices/system/cpu/cpu1/online
+
+
+mfpch emmc;set autostart no;tftpboot 0x1100000 primary_gpt_8g;mmc write 0x1100000 0 0x22;tftpboot 0x1100000 secondary_gpt_8g;mmc write 0x1100000 0xECBFDF 0x21;tftp 0x1100000 uImage.smp;mmc write 0x1100000 0x4c00 0x4000;tftpboot 0x1100000 ramdisk.img;mmc write 0x1100000 0x8c00 0x4000;tftpboot 0x1100000 system.img;unsparse mmc 0 0x1100000 0x2AB80000 0x20000000;tftpboot 0x1100000 userdata.img;unsparse mmc 0 0x1100000 0x4AB80000 0xA0000000
+
+
+setenv bootargs initrd=0x01100000,1m rw androidboot.console=ttyS1 console=ttyS1,115200 panic_debug reserve_pmem=0x015000000 emmc_boot fb_share
+
+
+
+
+md 0xf0b65000 1
+md 0xd0000140 1
+md 0xd0010140 1
+
+mw 0xd0000140 0xFF0000B0 1
+mw 0xd0010140 0xFF0000B0 1
+
+mw 0xd0000140 0xFF000080 1
+mw 0xd0010140 0xFF000080 1
+
+mw 0xd0000140 0xFF000070 1
+mw 0xd0010140 0xFF000070 1
+
+mw 0xd0000140 0xFF0000F0 1
+mw 0xd0010140 0xFF0000F0 1
+
+mw 0xd0000140 0xFF0000C0 1
+mw 0xd0010140 0xFF0000C0 1
+
+
+adb root;adb shell logcat -c; adb shell logcat 
+
+
+export LD_LIBRARY_PATH=/usr/lib
+audio hdmi lcd /data/test/bsp_test_data
+
+
+hdmi
+adb root
+adb remount
+adb shell
+export PATH=/data/bin:$PATH
+export UTF_DATA_PATH=/data/test/bsp_test_data/
+cd /data/test/hdmi
+./hdmi_s_test.sh 10000
+
+
+
+LCD
+cd /sys/devices/platform/pxa168-fb.0/
+echo -0x1dc > lcd
+64
+echo 0xf0 > lcd
+128
+echo 0x55f0 > lcd
+
+
+adb root
+adb remount
+adb shell
+cd /system/bin
+mv displaymodel displaymodel_111
+
+
+:1,$s/mutex_lock/\/\/mutex_lock
+
+
+nhcao
+birth19830925
+
+adb root
+adb remount
+adb shell logcat -c
+adb shell logcat
+
+adb pull /etc/dms.cfg .
+vim dms.cfg
+	edit  “overlay_count=0”
+adb push dms.cfg /etc/
+adb shell sync
+
+
+
+You can login to my desktop to build the cameraengine:
+ssh zhangyh@10.38.38.236
+PSW: 112233
+cd /project/yellowstoneB0/
+. build/envsetup.sh
+chooseproduct yellowstone
+cd vendor/marvell/generic/cameraengine
+mm –B
+
+The output binaries is 
+../../../../out/target/product/yellowstone/system/bin/MrvlCameraDemo
+../../../../out/target/product/yellowstone/system/lib/libcameraengine.so
+
+
+scp ../../../../out/target/product/yellowstone/system/bin/MrvlCameraDemo wangjl@10.38.36.122:~/image/cam_demo
+scp ../../../../out/target/product/yellowstone/system/lib/libcameraengine.so wangjl@10.38.36.122:~/image/cam_demo
+
+
+set bootargs rdinit=/busybox/rdinit androidboot.console=ttyS2 console=ttyS2,115200 panic_debug reserve_pmem=0x15000000 emmc_boot fb_share
+tftp uImage_ys
+
+printk(KERN_ERR "wjl %s %d\n",__func__,__LINE__);
+
+
+
+
+
+tf 0x03000000 grootfs.img
+tf uImage
+
+op 0
+mmc dev 2; mmc read 0x01100000 0xA000 0x800;
+tftp uImage
+
+mdev -s
+mkdir sdcard
+mount -t vfat /dev/mmcblk1p1 /sdcard
+mkdir /data/
+cd /data/
+mkdir sdcard
+mount -t vfat /dev/mmcblk1p1 /data/sdcard
+mount -t vfat /dev/block/mmcblk1p1 /sdcard
+
+mount -o remount /dev/block/mmcblk0p9 /system
+mount -o remount /dev/block/mmcblk0p14 /data
+
+
+
+mw 0xD4282838 0x200
+mw 0xD4282838 0x600
+mw 0xD4282838 0x700
+
+
+mw 0xD4282838 0x14
+mw 0xD4282838 0x2014
+mw 0xD4282838 0x6014
+mw 0xD4282838 0x6a16
+mw 0xD4282838 0x6f17
+mw 0xD4282838 0x7f17
+mw 0xD4282838 0x7f97
+
+mw 0xD4282838 0xff17
+mw 0xD42828dc 0x20001fff
+mw 0xD42828d8 0x10
+
+mw 0xd4244020 0x7a120
+
+md 0xd4244020
+
+md 0xD420E000
+mw 0xD4282838 0x8f17
+md 0xD4240000
+md 0xD420F000
+
+md 0xD4282838
+
+
+mw 0xD4282838 0x8f17
+
+mw 0xD4282838 0x14
+mw 0xD4282838 0x2014
+mw 0xD4282838 0x6014
+mw 0xD4282838 0x6a16
+mw 0xD4282838 0x6f17
+mw 0xD4282838 0x7f17
+mw 0xD4282838 0x7f97
+
+mw 0xD4282838 0xff17
+mw 0xD42828dc 0x20001fff
+mw 0xD42828d8 0x10
+md 0xD42828f0 
+
+
+
+icam 1
+ispm h
+ispm p
+ispm h
+
+312
+peek 0xD428284c
+poke 0xD428284c 0xb007f
+poke 0xD428284c 0x4b007f
+peek 0xD428284c
+peek 0xD4282838
+poke 0xD4282838 0x7f17
+poke 0xD4282838 0x7f97
+peek 0xD4282838
+
+
+208
+peek 0xD428284c
+poke 0xD428284c 0x9007f
+poke 0xD428284c 0x49007f
+peek 0xD428284c
+peek 0xD4282838
+poke 0xD4282838 0x7f13
+poke 0xD4282838 0x7f93
+peek 0xD4282838
+
+
+
+peek 0xD428284c
+poke 0xD428284c 0xb007f
+
+axi
+416=416/1
+peek 0xD428284c
+poke 0xD428284c 0x1007f
+poke 0xD428284c 0x41007f
+peek 0xD428284c
+208=416/2
+peek 0xD428284c
+poke 0xD428284c 0x9007f
+poke 0xD428284c 0x49007f
+peek 0xD428284c
+312=624/2
+peek 0xD428284c
+poke 0xD428284c 0xb007f
+poke 0xD428284c 0x4b007f
+peek 0xD428284c
+156=624/4
+peek 0xD428284c
+poke 0xD428284c 0x1b007f
+poke 0xD428284c 0x5b007f
+peek 0xD428284c
+
+
+
+isp
+416=416/1
+peek 0xD4282838
+poke 0xD4282838 0x7f03
+poke 0xD4282838 0x7f83
+peek 0xD4282838
+208=416/2
+peek 0xD4282838
+poke 0xD4282838 0x7f13
+poke 0xD4282838 0x7f93
+peek 0xD4282838
+312=624/2
+peek 0xD4282838
+poke 0xD4282838 0x7f17
+poke 0xD4282838 0x7f97
+peek 0xD4282838
+156=624/4
+peek 0xD4282838
+poke 0xD4282838 0x7f37
+poke 0xD4282838 0x7fb7
+peek 0xD4282838
+
+peek 0xd420f308 
+poke 0xd420f308 0x400
+peek 0xd420f408 
+poke 0xd420f408 0x400
+peek 0xd420f508 
+poke 0xd420f508 0x400
+peek 0xd420f608 
+poke 0xd420f608 0x400
+
+
+
+ccic clk
+416/1
+peek 0xD4282850 
+poke 0xD4282850 0x6bbf
+poke 0xD4282850 0xebbf
+peek 0xD4282850 
+
+
+peek d420a088
+
+d420a000
+
+./sensorhal_test 1 0 /data/sdcard
+
+
+
+export PATH=/home/yiminp/plat_build/pxa988/android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin:$PATH
+
+ scp f2f_test_0625 wangjl@10.38.36.122:/nfs
+
+yiminp@10.38.34.175
+build123
+
+printk(KERN_ERR "wjl %s %d\n",__func__,__LINE__);
+
+op 0
+mmc dev 2; mmc read 0x01100000 0xA000 0x800;
+tftp uImage
+ss:640x480
+ss: 3264 x 2448
+
+stillmode:5,1,0
+
+cat /sys/class/graphics/fb0/blank
+
+echo 1 > /sys/class/graphics/fb0/blank
+
+echo -0x01 0x3c > /proc/driver/pm80x_reg
+echo 0x34 > /proc/driver/pm80x_reg
+
+
+mount -t vfat /dev/block/mmcblk1p1 /sdcard
+mount -o remount /dev/block/mmcblk0p9 /system
+cp /sdcard/MrvlCameraDemo /system/bin/
+cp /sdcard/libcameraengine.so /system/lib
+chmod 777 /system/bin/MrvlCameraDemo
+umount /sdcard/
+
+mount -t vfat /dev/block/mmcblk1p1 /sdcard
+cp /sdcard/f2f_test_0723_arm-marvell-linux-gnueabi+opt
+
+
+
+su
+mount -rw -o remount /dev/block/mmcblk0p9 /system
+mv /system/bin/tel_launch.sh /system/bin/tel_launch_bak.sh
+mv /system/bin/powerdaemon /system/bin/powerdaemon_bk
+mv /system/bin/powerdaemon_bk /system/bin/powerdaemon
+
+
+ps:1280x720
+vs:1920x1080
+r
+dump:0,0
+
+ss:1280x720
+ssf:1005
+
+su
+echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+echo 0 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+echo 156000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq
+echo 312000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 400000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 533000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 797000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 797000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+echo 0 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+
+s/c0 1230 (MrvlCameraDemo)/c0 0 (swapper\/0)/g
+
+682b70685df38bd8bc4d46f63
+
+b90760a160c92041e83c0e31ad06d64092bd8303
+
+
+adb root
+adb pull /mnt/sdcard/DCIM/Camera
+cd /mnt/sdcard/DCIM/Camera
+
+dica
+icam 1
+ccam 3264 2448 c
+ccam 1632 1224 p
+ccam 3264 2448 c
+ccam 1632 1224 p
+ccam 3264 2448 c
+
+
+
+
+
+0xD4282800
+ 
+
+show mem /size=long /leng=1 phys(0xD42828d8)
+0xD42828d8 
+
+
+If you are using ics
+
+Set core frequency change
+
+echo 156000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+echo 312000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+echo 624000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+
+
+get core frequency
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq
+
+
+set ddr frequency change
+cd /sys/class/devfreq/devfreq-ddr/device
+su
+echo 0 > /sys/class/devfreq/devfreq-ddr/device/ddr_profiling
+echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+
+echo 156000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 156000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 208000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 312000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+get ddr frequency
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+echo 0 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+
+If you are using JB
+
+Use below cmd after system boots up at first
+cpufreqd-set manual
+echo userspace > /sys/devices/system/cpu/cpu0/scaling_governors
+
+
+mmc dev 2; mmc read 0x01100000 0xA000 0x800;
+tftp uImage
+ss:640x480
+stillmode:3,1,1
+
+stillmode:5,1,0
+z:4
+z:5
+
+ss:176x144
+ss: 3264 x 2448
+ss:640x480
+stillmode:5,1,0
+ss:1600x1200
+ss:2048x1536
+ss:2592x1944
+ss: 3264 x 2448
+stillmode:3,1,1
+ss:1600x1200
+stillmode:3,1,1
+stillmode:0,1,0
+stillmode:3,1,2
+ps:1600x1200
+ps:640x480
+
+ss: 3264 x 2448
+stillmode:1,3,0
+vidmode:0
+
+vs
+vidmode:1
+tnf
+vidmode:2
+vidmode:2->vidmode:3
+
+svc power stayon true
+svc power stayon false
+echo u1 > /sys/devices/platform/pxa168-fb.0/vsync
+
+echo r 0xD420B190 1 > /proc/driver/blade
+echo w 0xD420B190 0x8005050> /proc/driver/blade
+disable
+echo w 0xD420B190 08004050> /proc/driver/blade
+
+echo w 0xD420B190 0x8005150> /proc/driver/blade
+echo w 0xD420B190 08004051> /proc/driver/blade
+
+
+ccic
+echo r 0xD4282850 > /proc/driver/blade 
+
+
+adb
+cat /sys/class/android_usb/android0/enable
+cat /sys/class/android_usb/android0/functions
+echo 0 > /sys/class/android_usb/android0/enable
+echo adb > /sys/class/android_usb/android0/functions
+echo 1 > /sys/class/android_usb/android0/enable
+
+
+disp
+echo r 0xd420f108 1 > /proc/driver/blade
+echo r 0xd420f208 1 > /proc/driver/blade
+echo r 0xd420f308 1 > /proc/driver/blade
+echo r 0xd420f408 1 > /proc/driver/blade
+echo r 0xd420f508 1 > /proc/driver/blade
+echo r 0xd420f608 1 > /proc/driver/blade
+echo r 0xd420f708 1 > /proc/driver/blade
+echo r 0xd420f808 1 > /proc/driver/blade
+echo r 0xd420f908 1 > /proc/driver/blade
+echo r 0xd420fa08 1 > /proc/driver/blade
+
+
+ccic
+echo r 0xD4282850 > /proc/driver/blade 
+
+lcd
+echo r 0xD420B190  > /proc/driver/blade 
+
+
+echo r 0xd42828c4 1 > /proc/driver/blade
+echo r 0xd4282804 1 > /proc/driver/blade
+
+
+echo r 0xd4282838 1 > /proc/driver/blade 
+echo r 0xd420f004 1 > /proc/driver/blade
+echo r 0xd420f008 1 > /proc/driver/blade
+
+FBTX0
+echo r 0xd420f308 1 > /proc/driver/blade 
+echo r 0xd420f324 1 > /proc/driver/blade 
+echo r 0xd420f328 1 > /proc/driver/blade 
+echo r 0xd420f330 1 > /proc/driver/blade 
+
+FBTR0
+echo r 0xd420f708 1 > /proc/driver/blade 
+echo r 0xd420f728 1 > /proc/driver/blade 
+echo r 0xd420f730 1 > /proc/driver/blade 
+ 
+FB
+echo r 0xd420f308  > /proc/driver/blade 
+echo w 0xd420f308  400 > /proc/driver/blade 
+echo r 0xd420f408  > /proc/driver/blade
+echo w 0xd420f408  400 > /proc/driver/blade 
+echo r 0xd420f508  > /proc/driver/blade
+echo w 0xd420f508  400 > /proc/driver/blade 
+echo r 0xd420f608  > /proc/driver/blade
+echo w 0xd420f608  400 > /proc/driver/blade 
+
+
+
+echo w 0xd420f004 0 > /proc/driver/blade 
+echo w 0xd420f004 0xcf > /proc/driver/blade 
+0xce
+
+all isp clk reset
+echo w 0xd4282838 0x8737 > /proc/driver/blade
+echo w 0xd4282838 0x8236 > /proc/driver/blade
+echo w 0xd4282838 0x8737 > /proc/driver/blade
+echo w 0xd4282838 0x8f37 > /proc/driver/blade
+./f2f_test_0725_static capture2
+
+stillmode:5,1,0
+
+
+echo w 0xd4282838 0x8236 > proc/driver/blade
+
+
+fun
+echo w 0xd4282838 0x8737 > proc/driver/blade
+echo w 0xd4282838 0x8736 > proc/driver/blade
+echo w 0xd4282838 0x8737 > proc/driver/blade
+echo w 0xd4282838 0x8f37 > proc/driver/blade
+
+echo w 0xd4282838 0x8736 > proc/driver/blade
+axi and fun
+echo w 0xd4282838 0x8636 > proc/driver/blade
+axi
+echo w 0xd4282838 0x8737 > proc/driver/blade
+echo w 0xd4282838 0x8637 > proc/driver/blade
+echo w 0xd4282838 0x8737 > proc/driver/blade
+echo w 0xd4282838 0x8f37 > proc/driver/blade
+
+
+echo w 0xd4282838 0x8737 > proc/driver/blade
+echo w 0xd4282838 0x8636 > proc/driver/blade
+echo w 0xd4282838 0x8737 > proc/driver/blade
+echo w 0xd4282838 0x8f37 > proc/driver/blade
+ 
+ss:640x480
+stillmode:1,10,0
+
+LCD
+echo r 0xD420B190  > /proc/driver/blade 
+echo r 0xD420B080  > /proc/driver/blade
+echo w 0xD420B190 0x8005050 > /proc/driver/blade
+ 
+
+
+08005050
+
+setvolt 1300
+
+
+setenv bootargs ${bootargs} qhd_lcd=1
+setenv bootargs ${bootargs} core_nopp=1248
+1248000
+echo 312000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 312000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+echo 0 > /sys/class/devfreq/devfreq-ddr/polling_interval;
+echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc;
+echo 312000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq
+
+
+echo 156000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 156000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+
+echo 600000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 600000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+
+echo 0 > /sys/class/devfreq/devfreq-ddr/polling_interval;
+echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc;
+echo 667000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+
+
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+echo 0 > /sys/class/devfreq/devfreq-ddr/polling_interval;
+echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc;
+echo 300000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+
+
+echo 400000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 400000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+echo 0 > /sys/class/devfreq/devfreq-ddr/polling_interval;
+echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc;
+echo 40000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+
+su
+echo 1 > /proc/sys/kernel/printk
+
+
+su
+mount -o remount,rw /dev/block/mmcblk0p9 /system
+mv /system/bin/powerdaemon /system/bin/powerdaemon.bk
+sync
+reboot
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo 1205000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+echo 1205000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+echo 600000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+echo 600000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+
+
+echo 0 > /sys/class/devfreq/devfreq-ddr/polling_interval
+echo 533000 > /sys/class/devfreq/devfreq-ddr/min_freq
+echo 533000 > /sys/class/devfreq/devfreq-ddr/max_freq
+echo 400000 > /sys/class/devfreq/devfreq-ddr/min_freq
+echo 400000 > /sys/class/devfreq/devfreq-ddr/max_freq
+echo 300000 > /sys/class/devfreq/devfreq-ddr/min_freq
+echo 300000 > /sys/class/devfreq/devfreq-ddr/max_freq
+echo 312000 > /sys/class/devfreq/devfreq-ddr/min_freq
+echo 312000 > /sys/class/devfreq/devfreq-ddr/max_freq
+
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+ps: 1920 x 1080
+vs: 1920 x 1080
+ps: 1020 x 1080
+ps: 1280 x 720
+
+
+svc power stayon true
+ppd_cmd 5 manual
+ppd_cmd 8 cpu 1200000
+ppd_cmd 8 cpu 800000
+ppd_cmd 8 cpu 700000
+ppd_cmd 8 cpu 650000
+ppd_cmd 8 cpu 600000
+ppd_cmd 8 cpu 400000
+ppd_cmd 8 cpu 300000
+
+
+ppd_cmd 8 ddr 312000
+ppd_cmd 8 ddr 300000
+ppd_cmd 8 ddr 150000
+
+
+ppd_cmd 7 cpu
+ppd_cmd 7 ddr
+
+
+In kernel
+su
+mount -o remount,rw /dev/block/mmcblk0p9 /system
+mv /system/bin/powerdaemon /system/bin/powerdaemon.bk
+sync
+reboot
+
+Use uboot cmdline, we could de-couple DDR freq-chg and Core freq-chg
+setenv bootargs ${bootargs} no_mck4_wr
+saveenv
+boot
+
+After system is reboot, default core frequency is 800M and ddr freq is 400M, now we enable core and ddr dynamic freq-chg by cmd
+echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo 50 > /sys/class/devfreq/devfreq-ddr/polling_interval
+
+
+su
+mount -t debugfs none /sys/kernel/debug
+cd /sys/kernel/debug/pxa/stat/
+echo 1 > cpu_dc_stat;echo 1 > ddr_dc_stat;echo 1 > vpu_dc_stat;echo 1 > gc_dc_stat;
+sleep 60;echo 0 > cpu_dc_stat;echo 0 > ddr_dc_stat;echo 0 > vpu_dc_stat;echo 0 > gc_dc_stat;
+cat cpu_dc_stat;cat ddr_dc_stat;cat vpu_dc_stat;cat gc_dc_stat
+
+
+Use ion buffer by using the following way:
+adb shell 
+setprop service.camera.display 0
+setprop service.camera.bufsrc phy
+
+
+
+
+1)disp codec srggb10 support
+2)dummy buffer, without buffer
+
+camera.mrvl.so -> /system/lib/hw/camera.mrvl.so
+\\sh-fs03\embedded_os\Spec -- HW, Core and Industry standard\DxO_ISP\camera_module_spec\SSG(isp feasibility)_IMX175(Sony)
+
+vnc:
+In uboot:
+setenv bootargs ${bootargs} qhd_lcd=0
+saveenv
+reset
+Boot to android shell
+su
+setprop persist.sys.display.format 4
+reboot
+
+svc power stayon true
+ifconfig rndis0 192.168.1.101 up
+watch sudo ifconfig usb0 192.168.1.100 up
+192.168.1.101:5901
+
+
+crash vmlinux ddr_dump --machdep phys_base=0x00100000
+phys_base = (TEXT_OFFSET + DDR_START_ADDRESS) & 0xFFFF0000
+
+t7
+\\sh-fs04\TSeven\Emdoor
+\\sh-fs03\Embedded_OS\Spec -- HW, Core and Industry standard\Boards\Emei_DKB\986_discrete_dkb
+
+
++       if (pdata->sensor_cid[i].reg_pid[j] == 0x2 )
++                       printk(KERN_ERR "wjl %s, %d\n",__func__,__LINE__);
+
+
+su
+hw.sh
+hwacc r 0xD4282cb0
+hwacc w 0xD4282cb0 0xc0
+hwacc r 0xD4282c84
+hwacc w 0xD4282c84 0x7008080
+
+
+su
+hw.sh
+hwacc r 0xD4282828
+hwacc 2 0xD4282828
+su
+hw.sh
+hwacc r 0xD42829e4
+
+hwacc r 0xD42829a4
+hwacc r 0xD42829e0
+hwacc r 0xD42829e4
+hwacc r 0xD42829e8
+hwacc r 0xD4282a14
+
+hwacc r 0xD4282888
+hwacc r 0xD4051140
+
+hwacc r 0xD4282838
+
+
+hwacc r 0xD4282838
+
+hwacc r 0xD4282804
+hwacc r 0xD42828c4
+hwacc r 0xd420f208 
+hwacc r 0xd420f220 
+
+am instrument -w -e class com.android.mediaframeworktest_cam.functional.CameraTest#testAllParamsCombination com.android.mediaframeworktest_cam/.MediaFrameworkTestRunner
+am instrument -e video 10000 -e preview 10000 -e s 1000 -e random 1 -w -e class com.android.camera.stress.ImageCapturewithZoom#testSubmodeSwitch com.android.camera.tests/com.android.camera.CameraTestRunner
+am instrument -e s 1000 -w -e class com.android.camera.stress.ImageCapture#testVideoCapture com.android.camera.tests/com.android.camera.stress.CameraStressTestRunner
+am start -n com.android.gallery3d/com.android.camera.Camera
+
+
+
+cp /home/wangjl/android-jb/out/target/product/pxa988dkb/obj/EXECUTABLES/costa_intermediates/LINKED/costa /home/wangjl/image/
+./costa 0 0 UYVY QCIF
+./costa 0 0 UYVY HQVGA
+./costa 0 0 UYVY QVGA
+./costa 0 0 UYVY CIF
+./costa 0 0 UYVY VGA
+./costa 0 0 UYVY 720P
+./costa 0 0 UYVY UXGA
+
+
+./costa 0 1 UYVY QCIF
+./costa 0 1 UYVY HQVGA
+./costa 0 1 UYVY QVGA
+./costa 0 1 UYVY CIF
+./costa 0 1 UYVY VGA
+./costa 0 1 UYVY 720P
+./costa 0 1 UYVY UXGA
+
+./costa 0 1 NV12 VGA
+./costa 0 0 NV21 VGA
+
+
+
+echo r 0x00fe > setting
+echo w 0x00fe 0x01> setting
+
+
+setprop service.camera.display 0   // disable display
+setprop service.camera.bufsrc phy  //use ion buffer
+
+
+
+
+
+setenv bootargs rdinit=/busybox/rdinit androidboot.console=ttyS1 console=ttyS1,115200 panic_debug uart_dma vmalloc=0x10000000 qhd_lcd=1 crashkernel=4k@0x8140000 disable_freqchg=1 disp_start_addr=0xb000000 board_id=0x10 ddr_mode=0 ioncarv=112M@0x09000000 nohlt
+
+
+make build_gen
+
+su
+umount /mnt/external_sdcard
+mkdir /data/sdcard
+mount -t vfat /dev/block/vold/179:73 /data/sdcard
+
+mknod /dev/media0 c 253 0
+
+mkdir /data/
+cd /data/
+mkdir sdcard
+mount -t vfat /dev/mmcblk1p1 /data/sdcard
+cd /data/sdcard/fvts/1108
+export UTF_DATA_PATH=/data/sdcard/
+chmod 777 f2f_test_GEN_1108_arm-marvell-linux-gnueabi+opt
+./f2f_test_GEN_1108_arm-marvell-linux-gnueabi+opt
+
+
+
+mknod /dev/media0 c 253 0
+
+umount /mnt/external_sdcard
+mkdir /data/sdcard
+mount -t vfat /dev/block/vold/179:73 /data/sdcard
+cd /data/sdcard/Fvts/1108
+export UTF_DATA_PATH=/data/sdcard/
+chmod 777 f2f_test_GEN_1108_arm-marvell-linux-gnueabi+opt
+./f2f_test_GEN_1108_arm-marvell-linux-gnueabi+opt
+
+
+time 20000
+segment cpy:          24200 us
+blk cpy:              25146 us
+get user pages:      258728 us
+dma map:             115020 us
+dma tranfer:         213012 us
+
+
+
+
+
+For sensor hal warm up document: \\sh-fs03\embedded_os\Spec -- HW, Core and Industry standard\DxO_ISP\Sensor&Module\SensorHALDev.
+DxO document: \\sh-fs03\embedded_os\Spec -- HW, Core and Industry standard\DxO_ISP\DxO_DELs\20130312_DxOISP_FW_delivery\DxOISP-FW-delivery\docs.
+
+
+
+test:
+Set evrionment:
+1.       adb push setup.exe   /data
+2.        cd /data            
+3.       ./setup.exe
+4.       Adb push Wenna.sh    /data/test/camera_engine
+Run test case steps:
+1.        ./Wenna.sh  (run camera engine case one time)
+
+
+
+
+
+
+
+emmd:
+sudo fastboot dump ddr_dump
+crash vmlinux ddr_dump --machdep phys_base=0x00100000
+phys_base = (TEXT_OFFSET + DDR_START_ADDRESS) & 0xFFFF0000
+
+
+crash
+git clone ssh://shgit.marvell.com/git/ose/linux/crash-utility.git
+make target=ARM
+make extensions
+
+
+
+mount -n -t sysfs /sys /sys
+rm /dev/uio0
+mdev -s
+mknod /dev/media0 c 253 0
+
+
+
+mknod /dev/uio0 c 251 0
+
+
+
+mount -n -t sysfs /sys /sys
+mount -n -t proc /proc /proc
+
+rm /dev/uio0
+mdev -s
+mknod /dev/media0 c 253 0
+
+cd /bin
+chmod 777 camera.elf
+./camera.elf
+
+
+CONFIG_MARVELL_MEDIA_MMU
+CONFIG_MARVELL_MEDIA_MMU
+
+su
+echo 5 > /proc/sys/kernel/printk
+cat /proc/sys/kernel/printk
+
+
+su
+rm /system/media/audio/ui/camera_click.ogg
+rm /system/media/audio/ui/camera_focus.ogg
+rm /system/media/audio/ui/VideoRecord.ogg
+
+
+
+sudo apt-cache search libudev
+./configure --with-kernel-headers=/home/wangjl/mrvl-3.9 --host=x86
+
+V:\mrvl-3.9\arch\arm\mm
+
+
+http://shgit.marvell.com/r/#change,43788
+
+
+
+setenv autostart no; tf uImage; dtb pxa.dtb; boot
+
+0xD4282C88
+
+isp preview0
+
+
+
+define macro /button /overwrite ccic "show mem /size=byte /ACCESSSIZE=long /len=0x7ff 0xD420A000"
+define macro /button /overwrite ccic "show mem /size=byte /ACCESSSIZE=long /len=084c 0xD4209000"
+define macro /button /overwrite REG_FMWR "show mem /size=byte /ACCESSSIZE=byte /len=0x100 0xC0200000"
+define macro /button /overwrite REG_ISP_TOP "show mem /size=byte /ACCESSSIZE=byte /len=0x94 0xC0265000"
+define macro /button /overwrite REG_MAC1 "show mem /size=byte /ACCESSSIZE=byte /len=0xd3 0xC0263B00"
+define macro /button /overwrite REG_MAC2 "show mem /size=byte /ACCESSSIZE=byte /len=0xd3 0xC0263E00"
+define macro /button /overwrite REG_MAC3 "show mem /size=byte /ACCESSSIZE=byte /len=0xd3 0xC0263F00"
+define macro /button /overwrite REG_TOP_SYS0 "show mem /size=byte /ACCESSSIZE=byte /len=0x53 0xC0260100"
+define macro /button /overwrite REG_TOP_SYS1 "show mem /size=byte /ACCESSSIZE=byte /len=0x53 0xC0263000"
+define macro /button /overwrite REG_IDI "show mem /size=byte /ACCESSSIZE=byte /len=0x94 0xC0263C00"
+
+
+
+define macro /button /overwrite ccic "show mem /MEMORY=physical /size=byte /ACCESSSIZE=long /len=0x7ff 0xD420A000"
+define macro /button /overwrite REG_FMWR "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0x100 0xC0200000"
+define macro /button /overwrite REG_ISP_TOP "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0x94 0xC0265000"
+define macro /button /overwrite REG_MAC1 "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0xd3 0xC0263B00"
+define macro /button /overwrite REG_MAC2 "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0xd3 0xC0263E00"
+define macro /button /overwrite REG_MAC3 "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0xd3 0xC0263F00"
+define macro /button /overwrite REG_TOP_SYS0 "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0x53 0xC0260100"
+define macro /button /overwrite REG_TOP_SYS1 "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0x53 0xC0263000"
+define macro /button /overwrite REG_IDI "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0x94 0xC0263C00"
+define macro /button /overwrite REG_INT "show mem /MEMORY=physical /size=byte /ACCESSSIZE=byte /len=0x40 0xC0263900"
+
+
+setenv bootargs rdinit=/busybox/rdinit rw androidboot.console=ttyS2 console=ttyS2,115200 panic_debug earlyprintk=uart8250-32bit,0xd4018000 mem=1024M user_debug=31 androidboot.lcd=720_45
+
+setenv autostart no; dtb edenconcord.dtb; tf uImage; boot
+
+
+
+
+cd /tmp
+cp -v /sdcard/test .
+cd /tmp/test
+./drv_test -v 0 0
+
+
+
+V:\helan2\mrvl-3.10
+
+eval /hex phys(0xd401e1b0)
+eval /hex phys(0xd401e1b4)
+
+set  val phys(0xD401E1B0)=0x12CF
+set  val phys(0xD401E1B4)=0x12CF
+
+
+
+echo 2 > /sys/module/b52isp/parameters/trace
+echo 5 > /sys/module/b52isp/parameters/trace
+
+mknod /dev/media0 char 253 0
+mkdir /sdcard
+mount -t vfat /dev/mmcblk1p1 /sdcard/
+mkdir /lib
+cp -r /sdcard/lib/firmware/ /lib/
+cd /sdcard
+./drv_test -s 3 0
+
+mount -t vfat /dev/mmcblk0 /sdcard/
+
+
+./drv_test_bk -s 3 0
+
+
+cd /tmp/
+cp -v /sdcard/drv_test .
+./drv_test -s 3 0
+
+
+setenv autostart no;dtb pxa1U88-dkb.dtb; tf 0x2000000 grootfs.img;t uImage;boot
+
+
+
+
+Eden:
+
+setenv autostart no; dtb edenconcord.dtb; tf uImage; boot
+
+setenv bootargs rdinit=/busybox/rdinit rw androidboot.console=ttyS2 console=ttyS2,115200 panic_debug earlyprintk=uart8250-32bit,0xd4018000 mem=1024M user_debug=31 androidboot.lcd=720_45
+ 
+setddrrate swdfc 312
+setaxirate 208
+
+setenv autostart no; dtb pxa1928concord.dtb; tf uImage; boot
+
+
+setddrrate swdfc 797
+setaxirate 312
+
+setenv autostart no; dtb pxa1928concord.dtb; tf uImage; boot
+
+
+
+su
+mount -o remount,rw rootfs /
+mkdir /lib/
+mkdir /lib/firmware/
+cd /data/
+cp -r firmware /lib/
+echo 2 > /sys/module/b52isp/parameters/trace
+./drv_test -s 3 0
+
+
+
+echo 4 > /sys/module/b52isp/parameters/trace
+
+echo 4 > /sys/module/b52isp/parameters/trace
+echo 2 > /sys/module/b52isp/parameters/trace
+
+
+adb root
+adb pull /data/OutputA_UYVY_640X480.yuv
+adb pull /data/OutputE_BG10_3264X2448.raw
+
+adb pull /data/OutputE_BG10_1632X1224.raw
+adb shell sync
+
+
+
+adb root
+adb push lib/ /data/
+adb push drv_test /data/
+adb shell sync
+
+
+su
+hw.sh
+hwacc r 0xd4282824
+hwacc r 0xd4282838
+hwacc r 0xd4282840
+hwacc r 0xd4282850
+irq status
+hwacc r 0xD420A028
+hwacc r 0xD420A030
+hwacc w 0xD420A030 0x50800000
+hwacc w 0xD420A030 0x50000000
+hwacc r 0xD420A108
+
+hwacc w 0xD4282828 0xfffff000
+hwacc w 0xD4282828 0xffffffff
+hwacc w 0xD4282918 0xfffff000
+hwacc w 0xD4282828 0
+hwacc w 0xD4282918 0
+hwacc r 0xD4282918
+
+su
+hw.sh
+hwacc r 0xD401E194
+hwacc r 0xD401E198
+
+
+su
+hw.sh
+hwacc r 0xD420A03C
+
+hwacc w 0xd401e0d4 4
+
+
+
+
+
+
+
+mknod /dev/media0 char 253 0
+mkdir /sdcard
+mount -t vfat /dev/mmcblk1p1 /sdcard/
+mkdir /lib
+cp -r /sdcard/lib/firmware/ /lib/
+cd /sdcard
+
+./drv_test -s 3 0
+
+
+setenv autostart no;dtb pxa1U88-dkb.dtb; tf 0x2000000 grootfs.img;t uImage;boot
+
+op 1248 797 312
+
+op 832 528 312
+setenv autostart no; dtb pxa1U88-dkb.dtb; tf uImage; boot
+
+
+setddrrate swdfc 528
+setaxirate 312
+
+setenv autostart no; dtb pxa1928concord.dtb; tf uImage; boot
+
+
+echo "r 0x3037c 4" > /proc/driver/b52_reg  
+echo "r 0x3037c 4" > /proc/driver/b52_reg  
+
+echo "w 0x67242 0x0 1" > /proc/driver/b52_reg
+echo "w 0x67243 0x0 1" > /proc/driver/b52_reg
+echo "w 0x67244 0x0 1" > /proc/driver/b52_reg
+echo "w 0x67245 0x0 1" > /proc/driver/b52_reg
+echo "w 0x67246 0x0 1" > /proc/driver/b52_reg
+echo "w 0x67247 0x0 1" > /proc/driver/b52_reg
+echo "w 0x67248 0x0 1" > /proc/driver/b52_reg
+
+su
+echo "w 0x67249 0x0 1" > /proc/driver/b52_reg
+
+
+echo "r 0x65006 1" > /proc/driver/b52_reg  
+echo "w 0x65006 0x3 1" > /proc/driver/b52_reg
+
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+
+su
+cd /data/
+./drv_test -s 3 0
+
+./drv_test -v 0 0
+
+./drv_test -s 3 0
+
+echo 2 > /sys/module/b52isp/parameters/trace
+
+echo 0 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+su
+echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+echo 797000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo 1057000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+cat /sys/class/devfreq/devfreq-ddr/cur_freq
+cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+
+echo 528000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+echo 156000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+cat /sys/class/devfreq/devfreq-ddr/cur_freq
+cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+
+echo 300000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+su
+cd /data/
+./drv_test -s 3 0
+
+15821734117
+
+echo 5 > /sys/module/b52isp/parameters/trace
+
+
+echo 2 > /sys/module/b52isp/parameters/trace
+
+
+3500 2380
+
+su
+hw.sh
+hwacc r 0x75000000
+
+
+echo 1 > /proc/driver/b52_reg
+
+echo "r 0x3359d 1" > /proc/driver/b52_reg  
+echo "w 0x3359d 0x12 1" > /proc/driver/b52_reg  
+
+echo 1 > /sys/module/b52isp/parameters/trace 
+
+echo 3 > /sys/module/b52isp/parameters/trace
+echo 4 > /sys/module/b52isp/parameters/trace
+echo 5 > /sys/module/b52isp/parameters/trace
+
+
+cd /data/
+./drv_test -s 3 0
+
+
+setenv bootargs androidboot.console=ttyS1 console=ttyS1,115200 panic_debug uart_dma vmalloc=0x10000000 crashkernel=4k@0x8140000 hwdfc=1 fhd_lcd=1 androidboot.lcd=1080p fbmem=24M@0x9800000 cma=64M androidboot.low_ram=true ioncarv=16M@0x09000000 ddr_mode=1 m3shmmem=1M@0x0a000000 m3acqmem=16M@0x0b000000 nohlt
+
+
+setenv autostart no;tftp primary_gpt;mmc write 0xb000000 0 0x22; tftp secondary_gpt; mmc write 0xb000000 0x1d59fdf 0x21; tftp u-boot.bin; mmc write 0xb000000 0x7800 0x800; tftp boot.img; mmc write 0xb000000 0x8000 0x8000; tftp 0x10000000 system.img; unsparse mmc 0 0x10000000 0x2000000 0x20000000;
+
+
+
+In uboot:
+setddrrate swdfc 312
+
+In kernel:
+cat /sys/kernel/debug/eden_sysset/eden_sysset
+
+
+find . -name "*swp" -exec rm {} \;
+find . -name "*rej" -exec rm {} \;
+find . -name "*.orig" -exec rm {} \;
+find . -name ".#*#" -exec rm {} \;
+change the file name from txt to txtd
+find ./ -name "*.txt" -exec mv "{}" "{}d" /;
+
+
+去除\n
+:%s/\n^$//g
+:%s/mac//g
+:%s{\([a-z]\)\n\([a-z ]\){\1 \2{
+cat txt | grep -v 字符 | grep -v '字符 >  new.txt 
+
+sed -i "s/原字符串/新字符串/g" `grep 原字符串 -rl 所在目录`
+sed -i "s/20 * SZ_1M/30 * SZ_1M/g" `grep 20 * SZ_1M -rl .`
+sed -i "s/CONFIG_MARVELL_MEDIA_MMU/CONFIG_MARVELL_CAMERA_MMU/g" `grep 原 -rl 所在目录`
+sed -i "s/trace_printk(/printk(KERN_ERR /g" `grep trace_printk -rl drivers/media/platform`
+
+
+find drivers/media/platform/mmp-isp/ -name "*.c" -print0 | xargs -0 sed -i 's#/\*\([A-Za-z0-9]\)#/* \1#g'
+find drivers/media/platform/mmp-isp/ -name "*.c" -print0 | xargs -0 sed -i 's#\([a-zA-Z0-9]\)\*/$#\1 */#g'
+find drivers/media/platform/mmp-isp/ -name "*.h" -print0 | xargs -0 sed -i 's#/\*\([A-Za-z0-9]\)#/* \1#g'
+find drivers/media/platform/mmp-isp/ -name "*.h" -print0 | xargs -0 sed -i 's#\([a-zA-Z0-9]\)\*/$#\1 */#g'
+
+
+
+
+find include/media -name "*.h" -print0 | xargs -0 sed -i 's#/\*\([A-Za-z0-9]\)#/* \1#g'
+find include/media -name "*.h" -print0 | xargs -0 sed -i 's#\([a-zA-Z0-9]\)\*/$#\1 */#g'
+find include/uapi/media/ -name "*.h" -print0 | xargs -0 sed -i 's#/\*\([A-Za-z0-9]\)#/* \1#g'
+find include/uapi/media/ -name "*.h" -print0 | xargs -0 sed -i 's#\([a-zA-Z0-9]\)\*/$#\1 */#g'
+
+
+
+
+
+sed -i "s/ *\t* *$//g" `grep " *" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+sed -i "s/[ ]*[\t]*[ ]*$//g" `grep "[ ]*" -rl .`
+
+
+sed -i "s/ \{0,100\}\t\{0,100\} \{0,100\}$//g" `grep " \{1,100\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+sed -i "s/^\( \{4\}\)\{5\}\([^ ]\)/\t\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{4\}\([^ ]\)/\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{3\}\([^ ]\)/\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{2\}\([^ ]\)/\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{1\}\([^ ]\)/\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ *]\)/\t\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ ]\)/\t\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ ]\)/\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{0\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+
+
+
+sed -i "/struct/{N; s/\(struct [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "struct" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "/enum/{N; s/\(enum [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "enum" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "/union/{N; s/\(union [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "union" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+
+
+/driver part
+
+
+sed -i "s/ \{0,100\}\t\{0,100\} \{0,100\}$//g" `grep " \{1,100\}" -rl drivers/video/arm/v5xx/`
+
+sed -i "s/^\( \{4\}\)\{5\}\([^ ]\)/\t\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{4\}\([^ ]\)/\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{3\}\([^ ]\)/\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{2\}\([^ ]\)/\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{1\}\([^ ]\)/\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ *]\)/\t\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ ]\)/\t\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ ]\)/\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{0\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+
+
+
+sed -i "s/( \{1,3\}\(.*\) \{1,3\})/(\1)/g" `grep "(" -rl drivers/video/arm/v5xx/`
+
+
+
+sed -i "s/if(\(.*\)/if (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/if/{N; s/\(if (.*)\).*{$/\1 {/g}" `grep "if" -rl drivers/video/arm/v5xx/`
+sed -i "/if.*[^{]$/{N;/$)/N;N;s/\(if (.*)\).*{$/\1 {/g}" `grep "if" -rl drivers/video/arm/v5xx/`
+sed -i "/if.*[^{]$/{N;N;/$)/N;N;N; s/\(if (.*)\).*{$/\1 {/g}" `grep "if" -rl drivers/video/arm/v5xx/`
+sed -i "/if (.*) {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "if " -rl drivers/video/arm/v5xx/`
+
+sed -i "s/for(\(.*\)/for (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/for/{N; s/\(for (.*)\).*{$/\1 {/g}" `grep "for" -rl drivers/video/arm/v5xx/`
+sed -i "/for.*[^{]$/{N;/$)/N;N;s/\(for (.*)\).*{$/\1 {/g}" `grep "for" -rl drivers/video/arm/v5xx/`
+sed -i "/for.*[^{]$/{N;N;/$)/N;N;N; s/\(for (.*)\).*{$/\1 {/g}" `grep "for" -rl drivers/video/arm/v5xx/`
+sed -i "/for (.*) {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "for " -rl drivers/video/arm/v5xx/`
+
+sed -i "s/while(\(.*\)/while (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/while/{N; s/\(while (.*)\).*{$/\1 {/g}" `grep "while" -rl drivers/video/arm/v5xx/`
+sed -i "/while.*[^{]$/{N;/$)/N;N;s/\(while (.*)\).*{$/\1 {/g}" `grep "while" -rl drivers/video/arm/v5xx/`
+sed -i "/while.*[^{]$/{N;N;/$)/N;N;N; s/\(while (.*)\).*{$/\1 {/g}" `grep "while" -rl drivers/video/arm/v5xx/`
+sed -i "/while (.*) {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "while " -rl drivers/video/arm/v5xx/`
+
+sed -i "s/switch(\(.*\)/switch (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/switch/{N; s/\(switch (.*)\).*{$/\1 {/g}" `grep "switch" -rl drivers/video/arm/v5xx/`
+sed -i "/switch.*[^{]$/{N;/$)/N;N;s/\(switch (.*)\).*{$/\1 {/g}" `grep "switch" -rl drivers/video/arm/v5xx/`
+
+sed -i "/struct/{N; s/\(struct [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "struct" -rl drivers/video/arm/v5xx/`
+sed -i "/enum/{N; s/\(enum [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "enum" -rl drivers/video/arm/v5xx/`
+sed -i "/union/{N; s/\(union [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "union" -rl drivers/video/arm/v5xx/`
+
+sed -i "/else$/{N; s/else.*{$/else {/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+sed -i "/else.*[^{]$/{N;/$)/N;N;s/\(else (.*)\).*{$/\1 {/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+sed -i "/else {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+
+sed -i "/do$/{N; s/do.*{$/do {/g}" `grep "do" -rl drivers/video/arm/v5xx/`
+sed -i "/list_for_each/{N; s/\(list_for_each[_a-z]*(.*)\).*{$/\1 {/g}" `grep "list_for_each" -rl drivers/video/arm/v5xx/`
+sed -i "/for_each_sg/{N; s/\(for_each_sg[_a-z]*(.*)\).*{$/\1 {/g}" `grep "for_each_sg" -rl drivers/video/arm/v5xx/`
+sed -i "/mver_circular_buffer_for_each/{N; s/\(mver_circular_buffer_for_each[_a-z]*(.*)\).*{$/\1 {/g}" `grep "mver_circular_buffer_for_each" -rl drivers/video/arm/v5xx/`
+
+sed -i "/}$/{N; s/}.*[^#]else\(.*\)/} else\1/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+
+sed -i "/case/{N; s/\(case .*:\)[^a-zA-Z0-9]*{$/\1 {/g}" `grep "case" -rl drivers/video/arm/v5xx/`
+sed -i "/case/{N; s/\(case .*:\)[^a-zA-Z0-9]*{$/\1/g}" `grep "case" -rl drivers/video/arm/v5xx/`
+
+
+find drivers/video/arm/v5xx/ -name "*.c" -print0 | xargs -0 sed -i 's#//\([^/*]*\)#/*\1 */#g'
+find drivers/video/arm/v5xx/ -name "*.h" -print0 | xargs -0 sed -i 's#//\([^/*]*\)#/*\1 */#g'
+
+
+
+
+
+
+//no needed
+sed -i "/}/{N; s/.*}\n\(.*break;.*\)/\1/g}" `grep "}" -rl drivers/video/arm/v5xx/`
+
+
+sed -i "s#STRINGIFY(TEST_DIR) \"/#\"#g" `grep "STRINGIFY" -rl MALI_VPU/`
+
+
+setprop service.camera.zsl_mask 0
+
+
+sed -i "/dma-mapping.h/d" `grep "dma-mapping.h" -rl .`
+
+[   90.992021] c1 1241 (MrvlCameraDemo) 100000 us, 9009 line, 5504, hts 494000000, pr 12041208
+[   90.992034] c1 1241 (MrvlCameraDemo) expo time 1000, lines 2331, vts ba0
+qq
+
+adb root
+adb remount
+adb push libcameraengine.so /system/lib/
+adb push libmedialib.so /system/lib/
+adb push camera.mrvl.so /system/lib/hw/
+adb push pipeline_config.xml /etc/
+adb push ispfw_v324.bin /etc/firmware/
+adb push semco_imx219_tuning.data /etc/
+adb shell sync
+
+
+setenv autostart no; dtb pxa1928concord.dtb; tf uImage; boot
+
+
+    disable zsl:
+adb root
+adb remount
+adb shell setprop service.camera.zsl_mask 1
+adb shell setprop service.camera.zsl_mask 0
+
+su
+echo 5 > /sys/module/b52isp/parameters/trace
+
+
+echo 3 > /sys/module/b52isp/parameters/trace
+echo 2 > /sys/module/b52isp/parameters/trace
+
+
+echo 3 > /proc/sys/kernel/printk
+
+echo 8 > /proc/sys/kernel/printk
+
+yuguo
+isp preview
+
+
+fastboot:
+fastboot flash boot boot.img
+fastboot flash:raw boot uImage ramdisk.img
+
+
+
+mac fifo: 512*128/8 = 8K byte.
+0x63b47 bit3: read feedback
+0x63b4c bit2: write feedback
+0x63b3d/x: when reach this threshold, stop output data. val * 128 / 8.
+
+
+30378-b pipeline eof
+3037c-f mac done
+30397-7 mac drop/overflow
+335e0-3 cmd start
+335e4-7 cmd end
+
+
+
+
+mkdir /data/log/camera
+adb root
+adb remount
+adb shell setprop service.camera.hdrdebug 1
+
+su
+echo 3 > /proc/sys/kernel/printk 
+
+echo 3 > /sys/module/b52isp/parameters/trace
+logcat -c
+
+
+d0cg
+cat /sys/devices/system/cpu/cpu0/cpuidle/state3/time
+cat /sys/devices/system/cpu/cpu0/cpuidle/state3/usage
+
+dmesg
+
+
+echo 2> /sys/module/b52isp/parameters/trace
+
+
+setenv autostart no; dtb pxa1928concord_314.dtb; tf uImage_314; boot
+
+
+
+echo 2 > /sys/module/b52isp/parameters/trace
+
+echo 3 > /sys/module/b52isp/parameters/trace
+echo 5 > /sys/module/b52isp/parameters/trace
+./drv_test -s 0 0
+
+
+echo 8 > /sys/module/videobuf_core/parameters/debug
+ 
+
+cat /dev/v4l-subdev0
+
+mknod /dev/media0 char 254 0
+./drv_test -s 0 0
+
+
+cat /dev/v4l-subdev0
+./drv_test -v 1 0
+
+
+echo "r 0x63928 4" > /proc/driver/b52_reg 
+
+echo "r 0x33024 2" > /proc/driver/b52_reg 
+
+su
+hw.sh
+echo "w 0x63b30 0x5 1" > /proc/driver/b52_reg
+echo "r 0x63b30 1" > /proc/driver/b52_reg 
+
+hwacc w 0x28ac0000 0xffffffff
+hwacc w 0x28e8b000 0xffffffff
+hwacc w 0x29000000 0xffffffff
+hwacc w 0x2904b000 0xffffffff
+hwacc w 0x37310000 0xffffffff
+hwacc w 0x3735b000 0xffffffff
+
+
+hwacc r 0x28ac0000
+hwacc r 0x28e8b000
+hwacc r 0x29000000
+hwacc r 0x2904b000
+hwacc r 0x37310000
+hwacc r 0x3735b000
+
+
+adb shell echo 'echo w 0x65320 0x0 1 > /proc/driver/b52_reg'
+
+su
+echo "w 0x65320 0x0 1" > /proc/driver/b52_reg
+echo "w 0x33022 0x1 1" > /proc/driver/b52_reg
+echo "w 0x33c6e 0x0 1" > /proc/driver/b52_reg
+
+echo "r 0x65320 1" > /proc/driver/b52_reg 
+echo "r 0x33022 1" > /proc/driver/b52_reg 
+echo "r 0x33c6e 1" > /proc/driver/b52_reg 
+
+echo "r 0x63b4e 4" > /proc/driver/b52_reg 
+
+echo "r 0x63b32 4" > /proc/driver/b52_reg 
+
+echo "r 0x30378 4" > /proc/driver/b52_reg 
+echo "r 0x3037c 4" > /proc/driver/b52_reg 
+echo "r 0x30394 4" > /proc/driver/b52_reg 
+
+echo "r 0x301a8 4" > /proc/driver/b52_reg 
+echo "r 0x301ac 4" > /proc/driver/b52_reg 
+echo "r 0x6390f 1" > /proc/driver/b52_reg 
+echo "r 0x335e0 8" > /proc/driver/b52_reg 
+echo "r 0x63b80 2" > /proc/driver/b52_reg 
+echo "r 0x303d4 1" > /proc/driver/b52_reg 
+echo "r 0x65037 4" > /proc/driver/b52_reg 
+echo "r 0x63c64 4" > /proc/driver/b52_reg 
+echo "r 0x63c62 2" > /proc/driver/b52_reg 
+echo "r 0x63c7c 6" > /proc/driver/b52_reg 
+echo "r 0x650f8 4" > /proc/driver/b52_reg 
+echo "r 0x65e08 4" > /proc/driver/b52_reg 
+echo "r 0x63b99 4" > /proc/driver/b52_reg 
+echo "r 0x63b99 4" > /proc/driver/b52_reg 
+echo "r 0x303a3 1" > /proc/driver/b52_reg 
+echo "r 0x303c3 1" > /proc/driver/b52_reg 
+echo "r 0x65002 1" > /proc/driver/b52_reg 
+echo "r 0x63900 0x10" > /proc/driver/b52_reg 
+
+echo "r 0xbde 1" > /proc/driver/b52_reg
+echo "r 0xbdf 1" > /proc/driver/b52_reg
+
+echo "r 0x63c64 2" > /proc/driver/b52_reg 
+echo "r 0x63c66 2" > /proc/driver/b52_reg 
+
+echo "r 0x63b32 " > /proc/driver/b52_reg 
+
+echo 1 > /dev/v4l-subdev1
+
+
+echo "r 0x63928 4" > /proc/driver/b52_reg 
+echo "r 0x65002 1" > /proc/driver/b52_reg 
+
+
+ 
+adb root
+adb remount
+adb shell setprop service.camera.zsl_mask 1
+
+
+ 
+adb root
+adb remount
+adb shell setprop service.camera.isp.mmu 1
+
+su
+setprop service.camera.display 2
+
+su
+setprop service.camera.isp.mmu 0
+su
+setprop persist.service.camera.b52skip 0
+
+
+adb root
+adb shell mkdir -p /data/log/camera
+adb shell setprop service.camera.dump 100
+adb shell setprop persist.service.camera.b52skip 0
+
+
+enable mmu
+su
+setprop service.camera.isp.mmu 1
+chmod 777 /sys/module/mv_sc2_camera/parameters/buffer_mode
+echo 1 > /sys/module/mv_sc2_camera/parameters/buffer_mode
+
+ ddr
+ su
+ phs_cmd 5 auto
+ 
+ su
+ phs_cmd 5 manual
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 797000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 156000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+  su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 208000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+ 
+ echo 78000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 312000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+  
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 528000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+   
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 667000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+su 
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+
+echo 100000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 100000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+
+
+ 
+su
+hw.sh
+hwacc r 0xD420A83C
+ 
+ 
+su
+hw.sh
+hwacc r 0xD4282cb0
+hwacc w 0xD4282cb0 0x80
+hwacc r 0xD4282c84
+hwacc w 0xD4282c84 0x8000080
+
+hwacc r 0xD420F828
+hwacc r 0xD420F82C
+ 
+ 
+ echo 0 > /sys/kernel/debug/dvfs_enable
+ 
+ dvc adnv vcc to 1.325v
+ su
+ echo 0 > /sys/kernel/debug/dvfs_enable
+ 
+ 
+ adb root
+ adb remount
+ adb shell mkdir /data/log/camera
+ adb shell setprop service.camera.dump 0
+ adb shell setprop service.camera.dumpfly 1
+ 
+ adb shell setprop service.camera.dumpfly 0 
+ 
+ 
+ /sys/module/mv_sc2_camera/parameters
+ 
+ 
+ if (strcmp("b52isd-Output-A", isd->subdev.name))
+ 
+ 
+mkdir -p /data/log/camera/
+setprop service.camera.dump.still 1
+
+ 
+[bug fix/feature enabling/feature enhancement?]
+feature enabling
+[common/platform specific code?]
+common code
+[unit test passed with suspend/resume? (Y/N)]
+Y
+[is it needed by release branch? (Y/N)]
+N
+[is the related tags, such as power tags are needed? (Y/N)]
+N
+
+adb root
+adb remount
+adb push lib_new_mmu /system/lib/
+adb shell sync
+
+
+echo 3 >  /sys/module/b52_sensor/parameters/otp_ctrl
+echo 0 >  /sys/module/b52_sensor/parameters/otp_ctrl
+echo 1 >  /sys/module/b52_sensor/parameters/otp_ctrl
+echo 2 >  /sys/module/b52_sensor/parameters/otp_ctrl
+echo -1 >  /sys/module/b52_sensor/parameters/otp_ctrl
+
+
+trace:
+cd /sys/kernel/debug/tracing
+echo 1 > event/enable
+echo 1 > events/pxa/pxa_cpu_idle/enable
+echo 1 > events/pxa/isp_mac_irq/enable
+echo 1 > events/pxa/ccic_irq/enable
+
+cd /sys/kernel/debug/tracing
+echo 1 > events/gc_trace/gc_clock/enable
+echo 1 > events/gc_trace/gc_power/enable
+echo 1 > tracing_on
+
+echo 0 > tracing_on
+cat trace
+
+cat trace > /data/trace.txt
+
+
+change size:
+su
+cd /sys/kernel/debug/tracing
+echo 1 > tracing_on
+echo 50000 > buffer_size_kb
+echo 0 > tracing_on
+cat  buffer_size_kb
+
+make bootimage
+sudo ./mkbootimg --kernel uImage --ramdisk ramdisk.img -o boot.img;
+cat boot.img /dev/zero | head -c 15728640 > boot.img.pad;
+cat pxa1928concord.dtb /dev/zero | head -c  262144 > 10.dtb.pad;
+cat boot.img.pad 10.dtb.pad > boot.img.new;
+sudo cp boot.img.new boot.img;
+
+
+
+
+pr_err("rate %d, bps %d, lanes %d, bpp %d\n", rate, mipi_bps, lanes, bpp);
+
+
+su
+echo 5 > /sys/module/b52isp/parameters/trace
+
+./android-cts/tools/cts-tradefed
+run cts --class android.hardware.cts.CameraGLTest
+run cts --class android.hardware.cts.CameraTest 
+run cts --plan CTS  --disable-reboot
+ 
+run cts -c android.hardware.cts.CameraGLTest -m testCameraToSurfaceTextureMetadata
+run cts -c android.hardware.cts.CameraGLTest -m testSetPreviewTextureBothCallbacks
+run cts -c android.hardware.cts.CameraGLTest -m testSetPreviewTexturePreviewCallback
+run cts -c android.hardware.cts.CameraGLTest -m testSetPreviewTextureTextureCallback
+
+
+adb push android-cts-media-1.1/bbb_full /sdcard/test/bbb_full
+adb push android-cts-media-1.1/bbb_short /sdcard/test/bbb_short
+
+cat /sys/kernel/debug/pxa1928_sysset/pxa1928_sysset
+
+
+ su
+ echo 6 > /proc/sys/kernel/printk
+ echo 0 > /sys/kernel/debug/dvfs_enable
+ 
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 104000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+
+
+ echo 78000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+ 
+echo 1 > /sys/kernel/debug/dvfs_enable
+echo 100000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 100000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+ 
+
+ 
+ echo userspace > /sys/devices/platform/galcore/gpu/gpu0/gpufreq/scaling_governor
+ echo 156000 > /sys/devices/platform/galcore/gpu/gpu0/gpufreq/scaling_min_freq
+ echo 156000 > /sys/devices/platform/galcore/gpu/gpu0/gpufreq/scaling_max_freq
+ echo 156000 > /sys/devices/platform/galcore/gpu/gpu0/gpufreq/userspace/customize_rate
+ cat /sys/devices/platform/galcore/gpu/gpu0/gpufreq/scaling_min_freq
+ cat /sys/devices/platform/galcore/gpu/gpu0/gpufreq/scaling_max_freq
+ 
+ 
+   echo 104000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ echo 528000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+ 
+ su
+cd /sys/kernel/debug/tracing/events/pxa
+echo 20000 > /sys/kernel/debug/tracing/buffer_size_kb
+echo 1 > pxa_ddr_workload/enable
+echo 1 > pxa_ddr_upthreshold/enable
+echo 1 > pxa_ddr_clk_chg/enable
+echo 1 > pxa_core_clk_chg/enable
+ 
+ 
+ 
+  cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+ 
+su
+echo 1 > /sys/kernel/debug/tracing/events/pxa/pxa_ddr_clk_chg/enable
+echo 50000 > /sys/kernel/debug/tracing/buffer_size_kb
+
+
+adb shell cat /sys/kernel/debug/tracing/trace | tee trace_irq.txt
+
+adb shell cat /sys/kernel/debug/tracing/trace | tee trace_log1.txt
+adb -s PXA1908DKBV10N060　shell cat /sys/kernel/debug/tracing/trace | tee trace_log1.txt
+
+
+adb shell mkdir -p /data/log/camera
+adb shell setprop service.camera.dump 100
+adb shell setprop persist.service.camera.b52skip 0
+
+
+
+su
+echo 5000 > /sys/kernel/debug/tracing/buffer_size_kb
+
+adb shell cat /sys/kernel/debug/tracing/trace | tee trace_log1.txt
+
+ 
+ su
+ phs_cmd 5 manual
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 78000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+ 
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 156000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+  
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 208000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 312000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 667000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+    
+
+su 
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+
+echo 100000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+echo 100000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq;
+
+
+
+
+adb shell am instrument -e s 1000 -w -e class com.android.camera.stress.BackSensorTest#testImageCaptureWithBack com.android.camera.tests/com.android.camera.stress.CameraStressTestRunner
+
+disable mmu
+su
+setprop service.camera.isp.mmu 0
+chmod 777 /sys/module/mv_sc2_camera/parameters/buffer_mode
+echo 0 > /sys/module/mv_sc2_camera/parameters/buffer_mode
+
+enable mmu
+su
+setprop service.camera.isp.mmu 1
+chmod 777 /sys/module/mv_sc2_camera/parameters/buffer_mode
+echo 1 > /sys/module/mv_sc2_camera/parameters/buffer_mode
+
+
+
+ su
+ echo 6 > /proc/sys/kernel/printk
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 104000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+ echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq;
+ echo 800000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq;
+ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq;
+ 
+
+ su
+ echo 6 > /proc/sys/kernel/printk
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 528000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ 
+ 
+setenv bootargs androidboot.console=ttyS1 console=ttyS1,115200 panic_debug uart_dma crashkernel=4k@0x8140000 user_debug=31 earlyprintk=uart8250-32bit,0xd4017000 androidboot.lcd=720p cma=120M androidboot.low_ram=true ddr_mode=1 RDCA=08140400 androidboot.serialno=PXA1908DKBV10N060
+tftp uImage_314
+
+
+crash
+extend trace.so
+trace show > trace_log.txt
+
+adb shell am instrument -e video_duration 120000 -w -e class com.android.camera.stress.ImageCaptureEnhance#testVideoCaptureWhile ZoomAndSnapshotcom.android.camera.tests/com.android.camera.stress.CameraStressTestRunner
+
+
+watch -d -n 0.2 "adb shell 'cat /proc/meminfo'"
+
+cat /proc/cmainfo
+cat /sys/kernel/debug/ion/heaps/carveout_heap
+
+
+rd -p -64 0x10000000 0x1e7b00 > mem10000000.txt
+rd -p -64 0x20000000 0xf3d80 > mem20000000.txt
+
+
+
+echo "r 0x63928 4" > /proc/driver/b52_reg
+ 
+echo "r 0x30378 4" > /proc/driver/b52_reg 
+
+echo "r 0x63b80 0x13" > /proc/driver/b52_reg 
+
+echo "r 0x63b88 8" > /proc/driver/b52_reg 
+
+su
+echo "w 0x63b31 0x71 1" > /proc/driver/b52_reg
+
+
+//clock
+echo "r 0x6301b 1" > /proc/driver/b52_reg
+//isp enable
+echo "r 0x65002 1" > /proc/driver/b52_reg
+//isp enable
+echo "r 0x63022 1" > /proc/driver/b52_reg
+
+echo "r 0x303cf 1" > /proc/driver/b52_reg
+echo "r 0x65037 4" > /proc/driver/b52_reg
+echo "r 0x33524 4" > /proc/driver/b52_reg
+echo "r 0x6302a 4" > /proc/driver/b52_reg
+echo "r 0x63b31 1" > /proc/driver/b52_reg
+
+custom "lowlevel=off"
+custom "lowlevel=on"
+
+echo "r 0x63ead 1" > /proc/driver/b52_reg
+
+echo "r 0x63b31 1" > /proc/driver/b52_reg
+
+
+echo "r 0x63ead 1" > /proc/driver/b52_reg
+su
+echo "w 0x63b31 0x71 1" > /proc/driver/b52_reg
+
+
+su
+setprop service.camera.isp.mmu 0
+
+
+
+WANGCAIXIA
+Your Application ID is: AA004NUCNW
+
+
+LONGCHEER TECHNOLOGY SHANGHAI CO LTD
+BUILDING 1, NO.401,CAOBAO RD
+XUHUI DISTRICT
+200233
+64088898
+SOFTWARE ENGINEER
+
+wangjl83
+
+
+su
+cd /data/LTK; ./runcase.sh -i TC_CONCUR_113 
+
+
+
+
+0xD4282800
+
+PMU_CSI_CCIC2_CLK_RES_CTRL
+0xD4282824
+PMU_CCIC1_CLK_GATE_CTRL
+0xD4282828
+PMU_ISP_CLK_RES_CTRL
+0xD4282838
+PMU_CCIC_CLK_RES_CTRL
+0xD4282850
+PMU_CCIC2_CLK_GATE_CTRL
+0xD42829bc
+
+ 
+su
+hw.sh
+hwacc w 0xD4282828 0
+hwacc r 0xD4282828
+
+
+su
+hw.sh
+hwacc w 0xD4282828 0xffff55555
+hwacc r 0xD4282828
+
+
+hwacc r 0xD420A320
+ 
+su
+hw.sh
+hwacc r 0xD420a92c
+
+hwacc r 0xD42829bc
+hwacc w 0xD42829bc 0x000F0000
+hwacc w 0xD42829bc 0x00000000
+
+hwacc r 0xD4282824
+hwacc r 0xD4282828
+hwacc r 0xD4282838
+hwacc r 0xD4282850
+hwacc r 0xD42829bc
+
+hwacc w 0xD4282838 0xB278503
+
+
+./drv_test -s  0 0
+4128 2322
+
+su
+setprop service.camera.isp.mmu 0
+
+setenv bootargs androidboot.console=ttyS1 console=ttyS1,115200 panic_debug uart_dma crashkernel=4k@0x8140000 user_debug=31 earlyprintk=uart8250-32bit,0xd4017000 androidboot.lcd=1080p cma=250M androidboot.low_ram=true ddr_mode=1 RDCA=08140400 androidboot.serialno=PXA1936DKBV20N
+
+edenff
+setenv bootargs androidboot.console=ttyS1 console=ttyS1,115200 panic_debug uart_dma vmalloc=0x10000000 crashkernel=4k@0x8140000 RDCA=0x8140400 hwdfc=1 androidboot.lcd=720p fbmem=11M@0x9800000 pmode=0x0 board_id=0xe20 ddr_mode=1 cma=112M loglevel="15" cgroup_disable=memory ioncarv=16M@0x09000000 touch_type=1 initrd=0x2000000,10m rw
+
+boot
+
+
+echo "r 0x60103 1" > /proc/driver/b52_reg
+echo "w 0x60103 0x1 1" > /proc/driver/b52_reg
+echo "r 0x60103 1" > /proc/driver/b52_reg
+echo "r 0x60100 1" > /proc/driver/b52_reg
+echo "w 0x60100 0x1 1" > /proc/driver/b52_reg
+
+
+
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 156000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+ 
+ su
+ echo 1 > /sys/class/devfreq/devfreq-ddr/device/disable_ddr_fc
+ echo 528000 > /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+ cat /sys/class/devfreq/devfreq-ddr/device/ddr_freq
+
+ 
+ 
+ echo "r 0x34254 20" > /proc/driver/b52_reg
+
+ echo "r 0x33030 6" > /proc/driver/b52_reg
+
+
+ setenv autostart no; dtb pxa1928concord.dtb; tf uImage_lp; boot
+
+
+insmod /lib/modules/hwmap.ko
+
+mount -n -t sysfs /sys /sys
+mount -n -t proc /proc /proc
+mdev -s
+
+chmod 666 /dev/hwmap
+
+mknod /dev/hwmap char 253 0
+
+ 
+  
+su
+hw.sh
+hwacc r 0xe83fa800
+hwacc w 0xD420a92c 19
+
+ 
+mccu  0xe0031000
+mpumu 0xE0030000
+
+hwacc r 0xe0030184
+hwacc r 0xe003014c
+
+hwacc r 0xe0031064 
+hwacc r 0xe003101c
+ 
+gpio
+hwacc r 0xe00382b0
+hwacc r 0xe0030034
+hwacc r 0xe00382dc
+
+gpio70 pd
+hwacc r 0xe00381f0
+
+
+
+md 0xE83FA000 0x3ff
+md 0xE83FA800 0x3ff
+
+md 0x483FA000 0x3ff
+md 0x483FA800 0x3ff
+
+
+ccic
+hwacc r 0xe83fa82c
+hwacc w 0xe83fa82c 0xff7fffff
+
+
+hwacc r 0xe83fa828
+
+hwacc r 0xe83fa830
+hwacc w 0xe83fa830 0x10010000
+hwacc r 0xe83fa830
+
+
+
+
+
+
+ su
+ cd /data
+  su
+ cd /data
+ 
+ 
+setcpurate 250
+boot
+
+ 
+setcpurate 416
+boot
+
+ 
+mount -n -t sysfs /sys /sys
+mount -n -t proc /proc /proc
+mdev -s
+
+rm /dev/uio0
+mknod /dev/uio0 char 252 0
+
+setenv bootargs ${bootargs} no_console_suspend; boot;
+
+
+
+
+ mkdir data
+ cp /bin/appCoda7lDec.exe /data/
+ cp /bin/BA1_FT_C.264 /data/
+ cd /data/
+./appCoda7lDec.exe "-i:/data/BA1_FT_C.264 -o:/data/decode.yuv -fmt:5"
+
+
+chmod 666 /dev/hwmap
+
+ mkdir /data
+ cp /bin/costa /data/
+ cd /data
+ ./costa 0 1 UYVY VGA
+ 
+ 
+ chmod 777 costa
+ 
+ ./costa 0 1 UYVY QVGA
+ 
+./costa 0 1 UYVY VGA
+ 
+./costa 0 1 UYVY 5M
+ 
+ ./costal 0 0 UYVY 720P
+ 
+ma-lab6\ma-lab6-user
+ma-lab6-pw 
+ 
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x1C2000 0x1ee03000 "C:/Users/ma-lab6-user/Desktop/wjl/im720_1.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x96000 0x1d9a0000 "C:/Users/ma-lab6-user/Desktop/wjl/imvga26.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x96000 0x1ecd6000 "C:/Users/ma-lab6-user/Desktop/wjl/ivga_c0.yuv"
+
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x99C600 0x1cddd000 "C:/Users/ma-lab6-user/Desktop/wjl/m5_uyvy.yuv"
+
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x4b000 0x1ed22000 "C:/Users/ma-lab6-user/Desktop/wjl/vga_nv12_y.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x26000 0x1ed6d000 "C:/Users/ma-lab6-user/Desktop/wjl/vga_nv12_uv.yuv"
+
+UPLOAD /BIN /MEMORY=physical /LENGTH=0xE1000 0x1eee4000 "C:/Users/ma-lab6-user/Desktop/wjl/p720_nv21_y.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x70800 0x1efc5000 "C:/Users/ma-lab6-user/Desktop/wjl/p720_nv21_vu.yuv"
+
+
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x4b000 0x1ec40000 "C:/Users/ma-lab6-user/Desktop/wjl/vga_yv12_y.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x12C00 0x1ec8b000 "C:/Users/ma-lab6-user/Desktop/wjl/vga_yv12_v.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x12C00 0x1ec9dc00 "C:/Users/ma-lab6-user/Desktop/wjl/vga_yv12_u.yuv"
+
+UPLOAD /BIN /MEMORY=physical /LENGTH=0xE1000 0x1ec40000 "C:/Users/ma-lab6-user/Desktop/wjl/p720_yv12_y.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x38400 0x1ed21000 "C:/Users/ma-lab6-user/Desktop/wjl/p720_yv12_v.yuv"
+UPLOAD /BIN /MEMORY=physical /LENGTH=0x38400 0x1ed59400 "C:/Users/ma-lab6-user/Desktop/wjl/p720_yv12_u.yuv"
+
+
+
+UPLOAD /BIN /LENGTH=0x96000 0x1ed6c000 "C:/Users/ma-lab6-user/Desktop/wjl/iv.yuv"
+
+
+
+
+show mem /MEMORY=physical /size=byte /ACCESSSIZE=long /len=0x7ff 0xe83fa000
+save mem /MEMORY=physical /size=byte /ACCESSSIZE=long /len=0x7ff 0xe83fa800
+
+
+\\10.38.198.115\home\image\tftp\lg.txt
+ 
+ 0x96000
+
+
+ 
+setenv bootargs $(bootargs) flc_mmc=256M@0xDF800000 flc_ddr=256M@256M mem=248M flc_cma=16M
+
+ 
+ su
+ cd /data
+  ./costa 0 1 YV12 VGA
+  ./costa 0 1 NV21 VGA
+  ./costa 0 1 NV12 VGA
+     
+ ./costa 0 1 UYVY QCIF
+ ./costa 0 1 UYVY QVGA
+ ./costa 0 1 UYVY CIF
+ ./costa 0 1 UYVY VGA
+ ./costa 0 1 UYVY 720P
+ ./costa 0 1 UYVY 1080P
+ ./costa 0 1 UYVY 5M    
+ 
+ 
+  
+mount -n -t sysfs /sys /sys
+mount -n -t proc /proc /proc
+mdev -s
+
+ 
+ pxa1908
+ 
+ setenv bootargs console=ttyS1,115200 earlyprintk=uart8250-32bit,0xd4017000 panic_debug mem=896M user_debug=31 RDCA=08140400  root=/dev/ram0 rw rdinit=/bin/sh
+
+ setenv autostart no; dtb ulc.dtb; tf uImage_ulc; boot
+
+
+ iap
+ 
+ setenv bootargs console=ttyS0,115200 earlyprintk=uart8250-32bit,0xfe003000 panic_debug mem=248M user_debug=31 RDCA=08140400 root=/dev/ram0 rw rdinit=/bin/sh
+
+ setenv autostart no; dtb ulc.dtb; tf uImage_ulc; boot
+
+
+mount -n -t sysfs /sys /sys
+mount -n -t proc /proc /proc
+mdev -s
+
+ 
+
+ 
+ 
+ 
+ fdt addr 0x9800000
+ 
+setenv bootargs androidboot.console=ttyS1 androidboot.hardware=pxa1908 console=ttyS1,115200 panic_debug uart_dma crashkernel=4k@0x8140000 user_debug=31 earlyprintk=uart8250-32bit,0xd4017000 androidboot.lcd=720p cma=100M cgroup_disable=memory ddr_mode=2 RDCA=08140400 androidboot.serialno=PXA1908DKBV10N111 cpmem=32M@0x06000000 androidboot.exist.cp=18 androidboot.rfpattern=Skylark,V15 initrd=0x2800000,10m rw
+ 
+eagle_viewer.exe -f capture_NV21_640x480.yuv -w 640 -h 480 -m nv21
+eagle_viewer.exe -f capture_YV12_640x480.yuv -w 640 -h 480 -m yv12
+ 
+ 
+adb shell "echo \"w 0x63601 0x20\" > /proc/driver/b52_reg"
+adb shell "echo \"w 0x63606 0x03\" > /proc/driver/b52_reg"
+adb shell "echo \"w 0x63602 0x35\" > /proc/driver/b52_reg"
+adb shell "echo \"w 0x63603 0x0a\" > /proc/driver/b52_reg"
+adb shell "echo \"w 0x63609 0x33\" > /proc/driver/b52_reg"
+adb shell "echo \"w 0x63609 0xf9\" > /proc/driver/b52_reg"
+adb shell "echo \"r 0x63607 0x2\" > /proc/driver/b52_reg"
+
+
+./drv_test -s 640 480 0 1
+
+
+Wifi SSID is: MRVLSecureWifi. 
+Password is: iw!On4uM 
+
+
+
+\\10.38.198.115\home\image\tftp\log2.txt
+
+
+setenv autostart no; dtb pxa1L88.dtb; tf uImage; boot
+
+ 
+setenv autostart no; dtb pxa1L88.dtb; tf uImage; boot
+
+ 
+scons arch=arm_v8 target_os=linux device_tree=1 -f sconstruct v=1 oob=1 -c
+
+
+adb root
+adb remount
+adb push /home/wangjl/virt/nfs/vpu/h264/encoded.h264 /data
+adb push /home/wangjl/virt/nfs/vpu/mve_rsrc.ko /data/
+adb push /home/wangjl/virt/nfs/vpu/mve_base.ko /data/
+adb shell sync
+
+
+pr_err("%s, %d\n", __func__, __LINE__);
+
+dtb pxa1936.dtb
+
+
+su
+cd /data/
+insmod mve_rsrc.ko
+insmod mve_base.ko
+
+
+rmmod mve_base
+rmmod mve_rsrc
+
+
+adb root
+adb remount
+adb push MALI_VPU/bin/arm_v8-linux/mve_system_test_suites /data/
+adb push MALI_VPU/bin/arm_v8-linux/selfie /data/
+adb push MALI_VPU/fwbin /etc/firmware
+
+
+./selfie --component:op=encode:fmt=h264:in=data.yuv:out=encoded.h264:count=10:width=128:height=64:in_alloc=valloc:out_alloc=valloc
+./selfie --component:op=decode:fmt=h264:in=encoded.h264:out=decoded_h264.yuv:count=10:in_alloc=valloc:out_alloc=valloc
+
+
+./selfie --component:op=encode:fmt=hevc:in=data.yuv:out=encoded.hevc:count=10:width=128:height=64:in_alloc=valloc:out_alloc=valloc
+./selfie --component:op=decode:fmt=hevc:in=encoded.hevc:out=decoded_hevc.yuv:count=10:in_alloc=valloc:out_alloc=valloc
+
+
+
+ 
+http://lwn.net/Articles/447029/
+http://lwn.net/Articles/396657/
+http://blog.csdn.net/21cnbao/article/details/7309757
+
+
+王建乐
+330324198312313699
+2600.24
+2568.47
+2591.97
+
+1) add the camera related clock
+
+2) refine the driver of clock and low power part
+
+3) prepare the camera device tree part
+
+prepare the camera driver for iap220 bringup
+
+hardware/libhardware/modules/gralloc/gralloc.cpp
+
+vendor/marvell/generic/marvell-gralloc/ion_gralloc.cpp
+vendor/marvell/generic/marvell-gralloc/framebuffer.cpp
+vendor/marvell/generic/marvell-gralloc/gc_gralloc.cpp
+vendor/marvell/generic/marvell-gralloc/gc_gralloc_helper.cpp
+vendor/marvell/generic/marvell-gralloc/gralloc.cpp
+
+
+su
+cat /proc/interrupts
+logcat 
+
+
+setcpurate 250
+boot
+
+setenv bootargs ${bootargs} no_console_suspend; boot;
+
+
+
+10.250.82.143
+
+
+
+clk_core --> mmp_clk_core
+
+hw->clk --> hw-->core
+__clk_reparent  --> clk_hw_reparent
+
+
+https://projecttracker.marvell.com/Account/Login?ReturnUrl=%2f
+
+
+
+
+
+
+
+
+
+Build kernel
+1.       IAP220
+make O=out/iap220dkb mrproper
+make O=out/iap220dkb iap220_defconfig
+make O=out/iap220dkb -j8
+2.       pxa1908dkb
+make O=out/pxa1908dkb mrproper
+make O=out/pxa1908dkb pxa1908_defconfig
+make O=out/pxa1908dkb -j8
+
+Here are the instructions to build the driver and test package, the build system assumes the kernel object is at out/<platform> folder so use above command to build the kernel
+1.	Environment setting
+a.	ARCH=arm
+b.	CROSS_COMPILE=arm-buildroot-linux-gnueabihf-
+c.	TARGET_PRODUCT=pxa1908
+2.	IAP220
+a.       Build GC driver and libGAL and 3D libraries, first goto iap_porting folder, call ./clean.sh and then
+b.      ./driver_build_sample_fb.sh arm iap220dkb
+c.       Build test package: 
+        # cd tests
+        # ./test_build_sample_fb.sh arm iap220dkb
+3.	PXA1908
+a.       Build GC driver and libGAL and 3D libraries, first goto iap_porting folder, call ./clean.sh and then
+b.      ./driver_build_sample_fb.sh arm pxa1908dkb
+c.       Build test package: 
+                                # cd tests
+                                # ./test_build_sample_fb.sh arm pxa1908dkb
+4.	Once the build is done, goto iap_porting folder, issue command
+		tar cvzf viv_test.tgz build/iap220dkb/sdk/drivers/ build/pxa1908dkb/sdk/drivers/ tests/build/
+5.	Push the viv_test.tgz to latest file system: e.g. \\sc-lab788\IOT\IOT_SW\iap220_buimages\dkb-build-logitec, 
+6.	On target, issue below commands:
+		mknod /dev/galcore c 199 0
+		mount -t ext4 /dev/mmcblk0p14 /mnt
+		adb push viv_test.tgz /mnt
+		adb shell sync
+		cd /mnt
+		tar xvf viv_test.tgz
+
+pxa1908:
+adb push viv_test.tgz /data
+adb shell sync
+
+cd /data
+tar xvf viv_test.tgz	
+
+rmmod galcore	
+insmod /data/build/pxa1908dkb/sdk/drivers/galcore.ko registerMemBase=0xc0400000 registerMemSize=0x1000 irqLine=40 contiguousSize=0x2000000 showArgs=1
+cd /data/tests/build/pxa1908dkb/sdk/samples/vdk/
+export LD_LIBRARY_PATH=.:/data/build/pxa1908dkb/sdk/drivers:/usr/lib:/lib
+./tutorial1
+
+
+pxa1908
+
+
+setenv bootargs console=ttyS1,115200 panic_debuguart_dma root=/dev/mmcblk0p9 rootwait androidboot.lcd=720p cma=128 cgroup_disable=memory ddr_mode=2 RDCA=08140400 cpmem=0K@0xffffffff androidboot.exist.cp=0 devtmpfs.mount=1
+setenv autostart no; dtb ulc.dtb; tf uImage_ulc; boot
+
+
+mount -t ext4 /dev/mmcblk0p10 /mnt
+cat /sys/class/graphics/fb0/modes
+
+
+insmod /mnt/build/pxa1908dkb/sdk/drivers/galcore.ko registerMemBase=0xc0400000 registerMemSize=0x1000 irqLine=40 contiguousSize=0x2000000 showArgs=1
+cd /mnt/tests/build/pxa1908dkb/sdk/samples/vdk/
+export LD_LIBRARY_PATH=.:/mnt/build/pxa1908dkb/sdk/drivers:/usr/lib:/lib
+./tutorial1
+	
+
+cd /sys/kernel/debug/tracing
+echo 1 > events/gc_trace/gc_clock/enable
+echo 1 > events/gc_trace/gc_power/enable
+echo 1 > tracing_on
+
+cat trace
+	
+		
+c.  For IAP220
+
+rmmod galcore
+insmod /data/galcore.ko  registerMemBase=0xe0088000 registerMemSize=0x1000 irqLine=58 contiguousSize=0x2000000 showArgs=1
+
+
+
+mount -t ext4 /dev/mmcblk0p14 /mnt
+
+tar xvf viv_test.tgz	
+
+
+setvolt 1 1200
+setenv autostart no; dtb iap220-dkb.dtb; tf uImage; boot
+
+
+
+mount -t ext4 /dev/mmcblk0p14 /mnt
+
+rmmod galcore
+insmod /mnt/build/iap220dkb/sdk/drivers/galcore.ko  registerMemBase=0xe0088000 registerMemSize=0x1000 irqLine=58 contiguousSize=0x2000000 showArgs=1
+
+
+rmmod galcore
+insmod /lib/modules/galcore.ko registerMemBase=0xe0088000 registerMemSize=0x1000 irqLine=58 contiguousSize=0x2000000 showArgs=1
+
+
+cd /mnt/tests/build/iap220dkb/sdk/samples/vdk/
+export LD_LIBRARY_PATH=.:/mnt/build/iap220dkb/sdk/drivers:/usr/lib:/lib
+./tutorial2
+
+
+
+cd /data/tests/build/iap220dkb/sdk/samples/vdk/
+export LD_LIBRARY_PATH=.:/data/build/iap220dkb/sdk/drivers:/usr/lib:/lib
+./tutorial2
+
+
+pwr
+devmem 0xE0030150
+devmem 0xE0030180  
+
+clk
+devmem 0xE0031020
+
+
+
+
+
+d.  For PXA1908
+		insmod /mnt/build/pxa1908dkb/sdk/drivers/galcore.ko registerMemBase=0xc0400000 registerMemSize=0x1000 irqLine=40 contiguousSize=0x2000000 showArgs=1
+		cd /mnt/tests/build/pxa1908dkb/sdk/samples/vdk/
+		export LD_LIBRARY_PATH=.:/mnt/build/pxa1908dkb/sdk/drivers:/usr/lib:/lib
+		./tutorial1 (or any other test programs starts with tutorial)
+
+
+dmesg -c
+
+			insmod galcore.ko  registerMemBase=0xe0088000 registerMemSize=0x1000 irqLine=58 contiguousSize=0x2000000 showArgs=1
+
+
+			tar xvf viv_test.tgz
+			
+cd C:\user\wangjl\mrvl-usb-driver\ADB
+
+
+/etc/init.d/S99adba-setup.sh
+
+
+mount -t ext4 /dev/mmcblk0p14 /mnt
+cd /mnt
+
+rm -rf viv_test.tgz tests
+
+
+
+
+ulc
+
+setenv bootargs console=ttyS1,115200 panic_debuguart_dma root=/dev/mmcblk0p9 rootwait androidboot.lcd=fwvga cma=120M cgroup_disable=memory ddr_mode=2 RDCA=08140400 androidboot.serialno=PXA1908DKBV10N572 cpmem=0K@0xffffffff androidboot.exist.cp=0 androidboot.rfpattern=Skylark,V15 initrd=0x2800000,10m rw 
+setenv autostart no; dtb ulc.dtb; tf uImage_ulc; boot
+ 
+
+setenv bootargs console=ttyS0,115200 earlyprintk=uart8250-32bit,0xfe003000 panic_debug mem=504M cma=128M user_debug=31 RDCA=08140400 rootfstype=ext4 root=/dev/mmcblk0p9 rootwait rw androidboot.lcd=720p
+boot
+
+
+
+iap220
+setenv bootargs console=ttyS0,115200 earlyprintk=uart8250-32bit,0xfe003000 panic_debug mem=504M cma=120M user_debug=31 RDCA=08140400 rootfstype=ext4 root=/dev/mmcblk0p9 rootwait rw androidboot.lcd=720p
+
+setenv autostart no; dtb iap220-dkb.dtb; tf uImage; boot
+
+android:
+setenv bootargs console=ttyS0,115200 earlyprintk=uart8250-32bit,0xfe003000 panic_debug mem=504M cma=120M user_debug=31 RDCA=08140400 initrd=0x2800000,10m androidboot.hardware=iap220 androidboot.lcd=720p
+
+
+setenv bootargs console=ttyS0,115200 earlyprintk=uart8250-32bit,0xfe003000 panic_debug mem=504M user_debug=31 RDCA=08140400 rootfstype=ext4 root=/dev/mmcblk0p9 rootwait rw androidboot.lcd=720p slub_debug=FZPU
+boot
+
+
+rmmod galcore
+insmod /lib/modules/galcore.ko registerMemBase=0xe0088000 registerMemSize=0x1000 irqLine=58 contiguousSize=0x2000000 showArgs=1
+
+
+
+ pxa1908
+ 
+ setenv bootargs console=ttyS1,115200 earlyprintk=uart8250-32bit,0xd4017000 panic_debug mem=896M user_debug=31 RDCA=08140400  root=/dev/ram0 rw rdinit=/bin/sh
+ setenv autostart no; dtb ulc.dtb; tf uImage_ulc; boot
+
+
+new:
+setenv bootargs console=ttyS1,115200 panic_debuguart_dma root=/dev/mmcblk0p9 rootwait androidboot.lcd=720p cma=20M cgroup_disable=memory ddr_mode=2 RDCA=08140400 cpmem=0K@0xffffffff androidboot.exist.cp=0 devtmpfs.mount=1
+setenv autostart no; dtb ulc.dtb; tf uImage_ulc; boot
+
+ 
+ori:
+setenv bootargs console=ttyS1,115200 panic_debuguart_dma root=/dev/mmcblk0p9 rootwait androidboot.lcd=720p cma=20M cgroup_disable=memory ddr_mode=2 RDCA=08140400 cpmem=0K@0xffffffff androidboot.exist.cp=0 devtmpfs.mount=1 initrd=0x2800000,10m rw 
+
+ 
+mount -n -t sysfs /sys /sys
+mount -n -t proc /proc /proc
+mdev -s
+
+ 
+
+op 800 400 312;
+setenv autostart no; dtb iap220-dkb.dtb; tf uImage; boot
+
+setenv autostart no; dtb iap220-dkb.dtb; 
+boot 
+
+
+rmmod galcore
+insmod /data/galcore.ko  registerMemBase=0xe0088000 registerMemSize=0x1000 irqLine=58 contiguousSize=0x2000000 showArgs=1
+
+
+cd /data
+export LD_LIBRARY_PATH=.:/usr/lib:/lib
+
+
+
+ echo 3 > /proc/sys/vm/drop_caches;sync
+./YUVToRGB -w1280 -h720 -iYUV420P -oRGB888 -IIMG720.yuv -Oout.rgb -thw -x0.5 -y0.5 -r90
+
+
+ echo 3 > /proc/sys/vm/drop_caches;sync
+./YUVToRGB -w640 -h480 -iYUV420P -oRGB888 -IIMG480.yuv -Oout.rgb -thw -x0.5 -y0.5 -r90
+ 
+
+ 
+ echo 3 > /proc/sys/vm/drop_caches;sync
+./YUVToRGB -w320 -h240 -iYUV420P -oRGB888 -IIMG240.yuv -Oout.rgb -thw -x0.5 -y0.5 -r90
+
+
+  
+ echo 3 > /proc/sys/vm/drop_caches;sync
+./YUVToRGB -w176 -h144 -iYUV420P -oRGB888 -IIMG144.yuv -Oout.rgb -thw -x0.5 -y0.5 -r90
+
+
+
+echo 3 > /proc/sys/vm/drop_caches;sync
+ 
+
+
+
+adb push libEGL.so /system/lib/
+
+
+
+
+
+
+
+#include <linux/fs.h>
+static void isp_save_raw(void *src, int size)
+{
+    struct file *fp;
+    mm_segment_t fs;
+    loff_t pos;
+    char name[50];
+    static int cnt;
+
+    if (++cnt % 10 != 0)
+        return;
+
+
+    pr_err("%s, cnt %d\n", __func__, cnt/10);
+    sprintf(name, "/home/root/fs/IMG_RAW_%d", cnt/10);
+    fp =filp_open(name, O_RDWR | O_CREAT,0644);
+    if (IS_ERR(fp)) {
+        printk("create file error/n");
+        return;
+    }
+
+    fs =get_fs();
+    set_fs(KERNEL_DS);
+
+    pos =0;
+    vfs_write(fp, src, size, &pos);
+
+    set_fs(fs);
+    filp_close(fp,NULL);
+
+    return 0;
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
