@@ -40,8 +40,8 @@
 (auto-compression-mode 1)
 
 ;;indent
-(setq c-basic-offset 4)
-(setq indent-tabs-mode nil)
+(setq c-basic-offset 8)
+(setq indent-tabs-mode t)
 (setq default-tab-width 8)
 (setq tab-width 8)
 (setq tab-stop-list ())
