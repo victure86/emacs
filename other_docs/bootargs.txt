@@ -6,6 +6,8 @@ yglgvjckptdtzndg
 
 jiawan04
 
+visa
+Nuan2017
 
 jianlew
 wangqin83
@@ -20,12 +22,29 @@ qinqing
 badminton
 
 
+LoginID    : e17c005@aa5.com
+Password   : armISPsony17
+What is your favorite team
+cameraisp
+
+arm develop
+victure83@outlook.com
+Nu@n2017
+
 snipping
 
+~/work/android-q/device/lge/hammerhead/camera
+QCamera3HardwareInterface::translateToHalMetadata
+camera_metadata_section
+mm_camera_ops
 
 PATH
 
+cd / && sudo ln -s ~/exports-0613/ exports
+
+
 sudo mount -t cifs -o username="jiawan04",password="windows passwd" //apshanas02.shanghai.arm.com/projects /apshanas02-projects
+ sudo mount -t cifs -o username="jiawan04",passwor="" //apshanas01.shanghai.arm.com/public/IVG ivg
 cd / && sudo ln -s /apshanas02-projects/ivg/AssertiveCamera/exports
 
 //apshanas02.shanghai.arm.com/projects /apshanas02-projects cifs username=<jiawan04>,password=<windows passwd> 0 0
@@ -33,11 +52,13 @@ cd / && sudo ln -s /apshanas02-projects/ivg/AssertiveCamera/exports
 \\apshanas01.shanghai.arm.com\public\IVG
 \\apshanas02.shanghai.arm.com\projects
 
+\\apshanas01.shanghai.arm.com\public\IVG\Documents_3rdParty\CIS&modules\OVT_17'Q3_OV16Bxx_16M_1.12um_2x1(type2)+gyro+zzHDR\module_A1581_r1
+
 
 Server
 192.168.60.21
 
-
+find  algo_libs/ -name "*.o" -print0 | xargs -0 ./avstack.pl
 
 C:\Disk_E\fsm-editor
 java -jar fsm-editor.jar
@@ -46,11 +67,18 @@ java -jar fsm-editor.jar
 set bootargs console=ttyAMA0,115200n8 root=/dev/sda2 rw rootwait earlycon=pl011,0x7ff80000 debug systemd.log_target=null user_debug=31 androidboot.hardware=juno loglevel=9 mem=1g memmap=1g$7g
 env save;boot
 
+Propose: output DMA add ready bit. If ready bit is not set, DMA does not output.
 
 
 concur pin
 137165
 
+100Mhz
+1024 bytes
+readl£º 88
+readl_relaxed:52
+readb: 84
+readb_relaxed:52
 
 
 run stratix
@@ -178,30 +206,37 @@ working bootargs
 FDT Device Paths
         - MAC(0002F7006C65,0x1)/IPv4(10.169.20.25)/juno-r2.dtb
 
-		
-		
+				
 
 set bootargs console=ttyAMA0,115200 earlyprintk=pl011,0x7ff80000 verbose debug init=/init root=/dev/nfs nfsroot=10.169.20.25:/home/wangjl/image/nfs/,tcp,v3 rw ip=dhcp androidboot.hardware=juno androidboot.seline
 env save
 
 
 isp:
-set bootargs console=ttyAMA0,115200n8 root=/dev/sda2 rw rootwait earlycon=pl011,0x7ff80000 debug systemd.log_target=null user_debug=31 androidboot.hardware=juno loglevel=9 mem=1g memmap=1g$7g
+set bootargs console=ttyAMA0,115200n8 root=/dev/sda2 rw rootwait earlycon=pl011,0x7ff80000 debug systemd.log_target=null user_debug=31 androidboot.hardware=juno loglevel=10 mem=1g memmap=1g$7g
+env save; boot
+
+pdaf
+set bootargs console=ttyAMA0,115200n8 root=/dev/sda2 rw rootwait earlycon=pl011,0x7ff80000 debug systemd.log_target=null user_debug=31 androidboot.hardware=juno loglevel=9 oops=panic panic=5 mem=7G memmap=7G$1G
 env save; boot
 
 
+./mem_dump 0x64400000 4147200
 
-insmod video-tx.ko
-insmod test-video-tx.ko
-insmod senc_tx.ko
-insmod mali-dp.ko
+0x7e9000
+./mem_dump 0x64BE9000 4147200
+
+0x1fa4000
+./mem_dump 0x663A4000 4147200
+
+417e9000
 
 
+devmem 0x64201134 b 0xf0
 
-rmmod mali-dp
-rmmod senc_tx
-rmmod test_video_tx
-rmmod video_tx
+echo 1 > /proc/sys/kernel/printk
+cd bruch
+./bruch.sh
 
 stop
 ip addr
@@ -231,8 +266,11 @@ mm -B MALI_MMSS=1
 juno.dtb
 
 
-useradd -s /bin/bash -d /home/backup/zhuxf zhuxf
-sudo usermod -m -d /home/backup/fuzh fuzh
+sudo useradd -s /bin/bash -p passwd -d /home/bella bella
+sudo usermod -m -d /home/bella bella
+
+sudo userdel bella
+
 
 
 
@@ -250,6 +288,10 @@ sed -i "s/apical_ad_top/ad/g" `grep apical_ad_top -rl kernel/drivers/`
 
 
 rename 's/af_lms/af_pd/' *
+
+
+sed -i "s/ ;/;/g" `grep   -rl .`
+
 
 
 
@@ -289,7 +331,8 @@ sed -i "s/{ \([A-Z_]*\),\(\t\{0,100\}\)/[ \1 ]= {/g" ad_hw_param.c
 sed -i "s/{ \([A-Z_0-9]*\),\(\t\{0,100\}\)/[ \1 \t] = { /g" ad_hw_param.c
 
 
-
+cd /sys/devices/system/cpu
+echo 0 > cpu0/online
 
 cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
 echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
@@ -303,8 +346,23 @@ echo 1200000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_setspeed
 cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
 
 
+cat /sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_cur_freq
+echo userspace > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+echo 100000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_setspeed
+cat /sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_cur_freq
 
 
+cat /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq
+echo userspace > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+echo 100000 > /sys/devices/system/cpu/cpu2/cpufreq/scaling_setspeed
+cat /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq
+
+echo 0 > cpu0/online
+echo 0 > cpu3/online
+echo 0 > cpu4/online
+echo 0 > cpu5/online
+
+1000000
 
 
 Annual Leave, Sabbatical Leave, Sick Leave, Volunteering
@@ -3152,7 +3210,68 @@ static void isp_save_raw(void *src, int size)
 
  
  
- 
- 
- 
- 
+
+
+
+
+
+improve the Spoken English Edit
+Engage in the discussion with UK team four time.
+Present the software solution to UK team one time.	01/12/2017	31/12/2018	none	
+
+
+
+
+
+
+
+	Private	
+1.3	deliver software skills training to graduate
+Share the knowledge of sensor, ISP firmware and linux driver with graduate.
+Graduate is able to bring up new sensor and finish sub-task of ISP software, like porting and maintain the codes of single module.
+On Track	01/08/2017	31/12/2018
+
+
+
+
+
+3.2	Design the software for LeGray Edit
+Prepare the software design document.
+Implement the control path communicating with Host ISP.
+Bring up the imx298 sensor for LeGray.
+
+Provide a demo of LeGray's feature.
+
+Completed	01/02/2017	31/05/2017
+
+
+
+3.1	Guide graduate to implement the test codes for AD5 
+Provide trainings, including hardware and software of AD5, the UTF framework.
+Prepare the detail requirement of test cases
+Help to solve the problems during the implementation of test cases.
+
+The test codes are completed in two months.
+
+Completed	01/07/2017	30/08/2018	
+
+
+
+Private	
+1.2	Develop the software for Kirch Edit
+interrupt handle missing SoF or EoF.
+Separate the long codes into function, making codes easily to read and understand
+remove the redundant codes
+enable clock pm-runtime and DVFS.
+correct the usage of linux synchronization, like spin_lock, mutex and disable IRQ.
+optimize the event process in parallel
+align the ISP init with linux standard, like not enable the hardware in probe. Enable the hardware as needed.
+support the memory usage of ISP
+ftrace
+kdump
+sensor, vcm not handle in interrupt
+
+the codes of ISP are improved that the customer directly uses them with min change.
+
+On Track	18/12/2018	31/12/2018	
+¯½

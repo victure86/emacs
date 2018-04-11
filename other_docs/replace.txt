@@ -1,0 +1,341 @@
+
+
+find  -name "*.[ch]" -print0 | xargs -0 grep shutter
+find  -name "*.cpp" -print0 | xargs -0 grep query_capability
+
+
+
+replace cmd
+
+
+find . -name "*.[ch]" -print0 | xargs -0 sed -i 's/CALIBRATION_AWB_WARMING_LS_D40/CALIBRATION_AWB_WARMING_LS_D75/g'
+find . -name "*.[ch]" -print0 | xargs -0 sed -i 's/calibration_awb_warming_ls_d40/calibration_awb_warming_ls_d75/g'
+find . -name "*.[ch]" -print0 | xargs -0 sed -i 's/awb_warming_D40/awb_warming_D75/g'
+
+
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/dma_buf_empty/DMA_BUF_EMPTY/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/dma_buf_busy/DMA_BUF_BUSY/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/dma_buf_ready/DMA_BUF_READY/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/dma_buf_purge/DMA_BUF_PURGE/g'
+
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/#include "system_log.h"/#include "apical_logger.h"/g'
+
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/\[^a-zA-Z0-9]j[^a-zA-Z0-9]/j/g'
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9]\)j\([^a-zA-Z0-9]\)/\1i\2/g'
+
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9_]\)dma_fr\([^a-zA-Z0-9_]\)/\1DMA_FR\2/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9_]\)dma_ds1\([^a-zA-Z0-9_]\)/\1DMA_DS1\2/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9_]\)dma_ds2\([^a-zA-Z0-9_]\)/\1DMA_DS2\2/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9_]\)dma_raw\([^a-zA-Z0-9_]\)/\1DMA_RAW\2/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9_]\)dma_max\([^a-zA-Z0-9_]\)/\1DMA_MAX\2/g'
+
+
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([a-zA-Z0-9_)]\)=/\1 =/g'
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/\=\([a-zA-Z0-9_(]\)/= \1/g'
+
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([a-zA-Z0-9_)]\)>/\1 >/g'
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/>\([a-zA-Z0-9_(][^-]\)/> \1/g'
+
+
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/>\([a-zA-Z0-9_(][^-]\)/> \1/g'
+
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9_.!]\)S_/\1AD_/g'
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/\([^a-zA-Z0-9_.!]\)P_/\1AD_/g'
+
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/_t s_/_t /g'
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/_t p_/_t /g'
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/_t  s_/_t  /g'
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/_t  p_/_t  /g'
+
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/->s_/->/g'
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/->p_/->/g'
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/config.s_/config./g'
+find  kernel tests user -name "*.[ch]" -print0 | xargs -0 sed -i 's/config.p_/config./g'
+
+
+
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/^static \(.*\)(\(.*\)) {$/static \1(\2)\n{/g'
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/^void \(.*\)(\(.*\)) {$/void \1(\2)\n{/g'
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/^uint\(.*\)(\(.*\)) {$/uint\1(\2)\n{/g'
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/^int\(.*\)(\(.*\)) {$/int\1(\2)\n{/g'
+
+find  -name "*.[ch]" -print0 | xargs -0 sed -i 's/(! /(!g'
+
+
++=
+!=
+>>=
+|=
+>=
+
+find projects/ -name "*.yaml" -print0 | xargs -0 sed -i 's/dma_fr/DMA_FR/g'
+find projects/ -name "*.yaml" -print0 | xargs -0 sed -i 's/dma_ds1/DMA_DS1/g'
+find projects/ -name "*.yaml" -print0 | xargs -0 sed -i 's/dma_ds2/DMA_DS2/g'
+find projects/ -name "*.yaml" -print0 | xargs -0 sed -i 's/dma_ds1/DMA_DS1/g'
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/ )/)/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/( /(/g'
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/while(/while (/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/for(/for (/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/if(/if (/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/\tswith(/\tswitch (/g'
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/}else/} else/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/else{/else {/g'
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/^[ \t]*if/{N; s/\(if (.*)\)\n[ \t]*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/^[ \t]*else if/{N; s/\(else if (.*)\)\n[ \t]*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/^[ \t]*else/{N; s/\(else\)\n[ \t]*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/^[ \t]*}$/{N; s/\}\n[ \t]*(else {\)$/} \1/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/^[ \t]*for/{N; s/\(for (.*)\)\n[ \t]*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/^[ \t]*while/{N; s/\(while (.*)\)\n[ \t]*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/^[ \t]*switch/{N; s/\(switch (.*)\)\n[ \t]*{$/\1 {/g}"
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/;\([a-zA-Z0-9_+-]\)/; \1/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/,\([a-zA-Z0-9(_+-]\)/, \1/g'
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/,\([^ \t$]\)/, \1/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/, \\n/,\\n/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/,  \([a-zA-Z]\)/, \1/g'
+
+find -type f -print0 | xargs -0 sed -i 's/ISP_HAS_/FW_HAS_/g'
+find -type f -print0 | xargs -0 sed -i 's/ \{0,100\}\t\{0,100\} \{0,100\}$//g'
+
+find -type f -print0 | xargs -0 sed -i 's/[ \t]*$//g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/[ \t]*$//g'
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/"arm, isp"/"arm,isp"/g'
+
+
+apical
+Apical
+APICAL
+
+find -type f -print0 | xargs -0 sed -i 's/AF/ZT/g'
+find -type f -print0 | xargs -0 sed -i 's/af/zt/g'
+ZT_SPOT_COUNT_Y
+find -type f -print0 | xargs -0 sed -i 's/ZT_SPOT_COUNT_Y/AF_SPOT_COUNT_Y/g'
+find -type f -print0 | xargs -0 sed -i 's/ZT_SPOT_COUNT_X/AF_SPOT_COUNT_X/g'
+
+find -type f -print0 | xargs -0 rename 's/af_lms/af_lms/g'
+
+find -type f -print0 | xargs -0 sed -i 's/apical/acamera/g'
+find -type d -print0 | xargs -0 rename 's/apical/acamera/g'
+find -type f -print0 | xargs -0 rename 's/apical/acamera/g'
+
+find -type f -print0 | xargs -0 sed -i 's/APICAL/ACAMERA/g'
+find -type d -print0 | xargs -0 rename 's/APICAL/ACAMERA/g'
+find -type f -print0 | xargs -0 rename 's/APICAL/ACAMERA/g'
+
+find -type f -print0 | xargs -0 sed -i 's/Copyright Apical/Copyright ARM/g'
+find -type f -print0 | xargs -0 sed -i 's/Apical Limited/ARM Limited/g'
+
+find -type f -print0 | xargs -0 sed -i 's/Apical/Acamera/g'
+find -type d -print0 | xargs -0 rename 's/Apical/Acamera/g'
+find -type f -print0 | xargs -0 rename 's/Apical/Acamera/g'
+
+
+find -name "*.set" -print0 | xargs -0 rename 's/imx323/dummy/g'
+find -name "*.set" -print0 | xargs -0 sed -i 's#SENSOR_NAME=IMX323#SENSOR_NAME=Dummy#g'
+find -name "*.set" -print0 | xargs -0 sed -i 's#calibrations/imx323#calibrations/dummy#g'
+
+
+find -name "*.set" -print0 | xargs -0 sed -i 's/apical/acamera/g'
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/APICAL_FSM2FW_PTR(p_fsm)->settings.isp_base/FSM2BASE(p_fsm)/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/APICAL_ISP2FW_PTR(instance)->settings.isp_base/ISP2BASE(instance)/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/p_fw->settings.isp_base/FW2BASE(p_fw)/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/pipe->settings.isp_base/PIPE2BASE(pipe)/g'
+
+#define FSM2BASE(p_fsm) (APICAL_FSM2FW_PTR(p_fsm)->settings.isp_base)
+#define ISP2BASE(p_isp) (APICAL_ISP2FW_PTR(p_isp)->settings.isp_base)
+#define FW2BASE(p_fw) ((p_fw)->settings.isp_base)
+#define PIPE2BASE(pipe) ((pipe)->settings.isp_base)
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/system_isp_read_\([0-9]*\)(uint32_t addr)/system_isp_read_\1(void __iomem *addr)/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/system_isp_read_\([0-9]*\)(u32 addr)/system_isp_read_\1(void __iomem *addr)/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/system_isp_write_\([0-9]*\)(uint32_t addr,/system_isp_write_\1(void __iomem *addr,/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/system_isp_write_\([0-9]*\)(u32 addr)/system_isp_write_\1(void __iomem *addr,/g'
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/uint32_t isp_base/void __iomem *isp_base/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/int32_t isp_base/void __iomem *isp_base/g'
+find scripts/ -name "*.py" -print0 | xargs -0 sed -i 's/int32_t isp_base/void __iomem *isp_base/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/static uint8_t isp_safe_stop(uint32_t base)/static uint8_t isp_safe_stop(void __iomem *base)/g'
+find -name "*.[ch]" -print0 | xargs -0 sed -i 's/static uint8_t isp_safe_start(uint32_t base)/static uint8_t isp_safe_start(void __iomem *base)/g'
+
+
+
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/FSM2BASE/FSM2ISP_BASE/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/dma_buf_busy/DMA_BUF_BUSY/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/dma_buf_ready/DMA_BUF_READY/g'
+find src/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/dma_buf_purge/DMA_BUF_PURGE/g'
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{10\}\([^ ]\)/\t\t\t\t\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{9\}\([^ ]\)/\t\t\t\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{8\}\([^ ]\)/\t\t\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{7\}\([^ ]\)/\t\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{6\}\([^ ]\)/\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{5\}\([^ ]\)/\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{4\}\([^ ]\)/\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{3\}\([^ ]\)/\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{2\}\([^ ]\)/\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\}\([^ ]\)/\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\} \*\([ /]\)/\t *\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\} \*$/\t */g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\} \/\*$/\t /*/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s#^\( \{4\}\)\{1\} \/\*#\t/*#g"
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s#$*#\n#g
+
+
+find -name apical_command_api_impl.c -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{0\} \{1,3\}\([^ *]\)/\t\2/g"
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ *]\)/\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ ]\)/\t \2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ ]\)/\t \2/g"
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{29,32\}\)\([^ ]\)/\t\t\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{25,28\}\)\([^ ]\)/\t\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{21,24\}\)\([^ ]\)/\t\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{17,20\}\)\([^ ]\)/\t\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{13,16\}\)\([^ ]\)/\t\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{9,12\}\)\([^ ]\)/\t\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{5,8\}\)\([^ ]\)/\t\t\2/g"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{1,4\}\)\([^ ]\)/\t\2/g"
+
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "s/^\( \{4\}\)\{1\}\([^ ]\)/\t\2/g"
+
+
+
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i 's/ ;/;/g'
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i 's/ \{0,100\}\t\{0,100\} \{0,100\}$//g'
+
+
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i
+find src/functions/af_pd/ -name "*.c" -print0 | xargs -0 sed -i
+
+
+find drivers/video/arm/v5xx/ -name "*.h" -print0 | xargs -0 sed -i 's#//\([^/*]*\)#/*\1 */#g'
+
+
+
+
+sed -i "s/ \{0,100\}\t\{0,100\} \{0,100\}$//g" `grep " \{1,100\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+sed -i "s/^\( \{4\}\)\{5\}\([^ ]\)/\t\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{4\}\([^ ]\)/\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{3\}\([^ ]\)/\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{2\}\([^ ]\)/\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{1\}\([^ ]\)/\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ *]\)/\t\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ ]\)/\t\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ ]\)/\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "s/^\( \{4\}\)\{0\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+
+
+
+sed -i "/struct/{N; s/\(struct [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "struct" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "/enum/{N; s/\(enum [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "enum" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+sed -i "/union/{N; s/\(union [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "union" -rl drivers/video/arm/v5xx/external/khronos/original/OMXIL/1.2.0`
+
+
+
+/driver part
+
+
+sed -i "s/ \{0,100\}\t\{0,100\} \{0,100\}$//g" `grep " \{1,100\}" -rl drivers/video/arm/v5xx/`
+
+sed -i "s/^\( \{4\}\)\{5\}\([^ ]\)/\t\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{4\}\([^ ]\)/\t\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{3\}\([^ ]\)/\t\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{2\}\([^ ]\)/\t\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{1\}\([^ ]\)/\t\2/g" `grep " \{4\}" -rl drivers/video/arm/v5xx/`
+
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ *]\)/\t\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{2\} \{1,3\}\([^ ]\)/\t\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{1\} \{1,3\}\([^ ]\)/\t \2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+sed -i "s/^\( \{4\}\)\{0\} \{1,3\}\([^ *]\)/\t\2/g" `grep " \{1,3\}" -rl drivers/video/arm/v5xx/`
+
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/for/{N; s/\(for (.*)\)\n[ \t]*{$/\1 {/g}"
+
+
+sed -i "s/( \{1,3\}\(.*\) \{1,3\})/(\1)/g" `grep "(" -rl drivers/video/arm/v5xx/`
+
+
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/if/{N; s/\(if (.*)\) *{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/for/{N; s/\(for (.*)\).*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/while/{N; s/\(while (.*)\).*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 sed -i "/switch/{N; s/\(switch (.*)\).*{$/\1 {/g}"
+find -name "*.[ch]" -print0 | xargs -0 
+
+sed -i "s/if(\(.*\)/if (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/if/{N; s/\(if (.*)\).*{$/\1 {/g}" `grep "if" -rl drivers/video/arm/v5xx/`
+sed -i "/if.*[^{]$/{N;/$)/N;N;s/\(if (.*)\).*{$/\1 {/g}" `grep "if" -rl drivers/video/arm/v5xx/`
+sed -i "/if.*[^{]$/{N;N;/$)/N;N;N; s/\(if (.*)\).*{$/\1 {/g}" `grep "if" -rl drivers/video/arm/v5xx/`
+sed -i "/if (.*) {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "if " -rl drivers/video/arm/v5xx/`
+
+sed -i "s/for(\(.*\)/for (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/for/{N; s/\(for (.*)\).*{$/\1 {/g}" `grep "for" -rl drivers/video/arm/v5xx/`
+sed -i "/for.*[^{]$/{N;/$)/N;N;s/\(for (.*)\).*{$/\1 {/g}" `grep "for" -rl drivers/video/arm/v5xx/`
+sed -i "/for.*[^{]$/{N;N;/$)/N;N;N; s/\(for (.*)\).*{$/\1 {/g}" `grep "for" -rl drivers/video/arm/v5xx/`
+sed -i "/for (.*) {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "for " -rl drivers/video/arm/v5xx/`
+
+sed -i "s/while(\(.*\)/while (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/while/{N; s/\(while (.*)\).*{$/\1 {/g}" `grep "while" -rl drivers/video/arm/v5xx/`
+sed -i "/while.*[^{]$/{N;/$)/N;N;s/\(while (.*)\).*{$/\1 {/g}" `grep "while" -rl drivers/video/arm/v5xx/`
+sed -i "/while.*[^{]$/{N;N;/$)/N;N;N; s/\(while (.*)\).*{$/\1 {/g}" `grep "while" -rl drivers/video/arm/v5xx/`
+sed -i "/while (.*) {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "while " -rl drivers/video/arm/v5xx/`
+
+sed -i "s/switch(\(.*\)/switch (\1/g" `grep "(" -rl drivers/video/arm/v5xx/`
+sed -i "/switch/{N; s/\(switch (.*)\).*{$/\1 {/g}" `grep "switch" -rl drivers/video/arm/v5xx/`
+sed -i "/switch.*[^{]$/{N;/$)/N;N;s/\(switch (.*)\).*{$/\1 {/g}" `grep "switch" -rl drivers/video/arm/v5xx/`
+
+sed -i "/struct/{N; s/\(struct [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "struct" -rl drivers/video/arm/v5xx/`
+sed -i "/enum/{N; s/\(enum [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "enum" -rl drivers/video/arm/v5xx/`
+sed -i "/union/{N; s/\(union [a-zA-Z0-9_]*\)\n.*{$/\1 {/g}" `grep "union" -rl drivers/video/arm/v5xx/`
+
+sed -i "/else$/{N; s/else.*{$/else {/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+sed -i "/else.*[^{]$/{N;/$)/N;N;s/\(else (.*)\).*{$/\1 {/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+sed -i "/else {/{N;N; s/ {\(.*;\).*}/\1/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+
+sed -i "/do$/{N; s/do.*{$/do {/g}" `grep "do" -rl drivers/video/arm/v5xx/`
+sed -i "/list_for_each/{N; s/\(list_for_each[_a-z]*(.*)\).*{$/\1 {/g}" `grep "list_for_each" -rl drivers/video/arm/v5xx/`
+sed -i "/for_each_sg/{N; s/\(for_each_sg[_a-z]*(.*)\).*{$/\1 {/g}" `grep "for_each_sg" -rl drivers/video/arm/v5xx/`
+sed -i "/mver_circular_buffer_for_each/{N; s/\(mver_circular_buffer_for_each[_a-z]*(.*)\).*{$/\1 {/g}" `grep "mver_circular_buffer_for_each" -rl drivers/video/arm/v5xx/`
+
+sed -i "/}$/{N; s/}.*[^#]else\(.*\)/} else\1/g}" `grep "else" -rl drivers/video/arm/v5xx/`
+
+sed -i "/case/{N; s/\(case .*:\)[^a-zA-Z0-9]*{$/\1 {/g}" `grep "case" -rl drivers/video/arm/v5xx/`
+sed -i "/case/{N; s/\(case .*:\)[^a-zA-Z0-9]*{$/\1/g}" `grep "case" -rl drivers/video/arm/v5xx/`
+
+
+find drivers/video/arm/v5xx/ -name "*.c" -print0 | xargs -0 sed -i 's#//\([^/*]*\)#/*\1 */#g'
+find drivers/video/arm/v5xx/ -name "*.h" -print0 | xargs -0 sed -i 's#//\([^/*]*\)#/*\1 */#g'
+
+
+
+find user/ad_daemon/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/int fd/ad_dev_info_t *dev_info/g'
+find user/ad_daemon/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/ad_hw_mgr.ad_dev_info.fd/\&ad_hw_mgr.ad_dev_info/g'
+find user/ad_daemon/ -name "*.[ch]" -print0 | xargs -0 sed -i 's/(fd, /(dev_info, /g'
+
+
+eval $(awk '{ printf("x=%s\ny=%s\nz=%s",$1,$2,$3); }' ./t)

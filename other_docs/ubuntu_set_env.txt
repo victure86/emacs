@@ -103,7 +103,7 @@ sudo apt-get install ctags
 	C-
 
 取消只读 Ctrl-x，Ctrl-q
-
+替换C-q C-j加入换行
 	
 16)cscope
 sudo apt-get install cscope cscope-el
@@ -223,6 +223,14 @@ build system.img
 	cd <android_working_dir>
 	make systemimage
 
+
+
+kernel debug tools:
+sudo apt-get install trace-cmd
+https://github.com/brendangregg/perf-tools
+git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
+
+https://lwn.net/Articles/410200/
 	
 
 emacs
@@ -238,8 +246,10 @@ git clone https://github.com/capitaomorte/yasnippet.git
 
 
 open source
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
 git clone git://github.com/RT-Thread/rt-thread.git
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git
+https://git.linaro.org/kernel/linux-linaro-stable.git/
 git clone git://git.kernel.org/pub/scm/virt/kvm/qemu-kvm.git
 git clone git://git.kernel.org/pub/scm/virt/kvm/kvm.git
 git clone https://github.com/qemu/qemu.git
@@ -258,6 +268,19 @@ git clone git://libhugetlbfs.git.sourceforge.net/gitroot/libhugetlbfs/libhugetlb
 git clone git://github.com/libhugetlbfs/libhugetlbfs
 git clone git://busybox.net/busybox.git
 
+git clone git://git.linuxtv.org//v4l-utils.git
+
+git clone https://github.com/victure86/catapult.git
+
+rt
+https://github.com/scheduler-tools/rt-app
+https://github.com/jlelli/rt-tests
+git://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git
+https://kernel.googlesource.com/pub/scm/utils/rt-tests/rt-tests.git
+
+https://github.com/jlelli/schedtool-dl
+
+
 archive
 http://marc.info/?l=linux-kernel&r=1&w=4
 
@@ -265,8 +288,14 @@ uboot
 http://git.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary
 
 
+synergy
+7B76313B62617369633B736F7068696520207765693B313B736F706869652E7765694061726D2E636F6D3B3B3B7D
 
 
 
 
-
+tools:
+dstat
+latencytop/powertop
+trace-cmd/kernelshark
+systemtap 
