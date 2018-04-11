@@ -1,134 +1,4 @@
-account
-addtional security
-yglgvjckptdtzndg
 
-1014345
-
-jiawan04
-
-visa
-Nuan2017
-
-jianlew
-wangqin83
-
-pin
-jiawan04
-165165
-
-questions
-qinqing
-13761005067
-badminton
-
-
-LoginID    : e17c005@aa5.com
-Password   : armISPsony17
-What is your favorite team
-cameraisp
-
-arm develop
-victure83@outlook.com
-Nu@n2017
-
-snipping
-
-~/work/android-q/device/lge/hammerhead/camera
-QCamera3HardwareInterface::translateToHalMetadata
-camera_metadata_section
-mm_camera_ops
-
-PATH
-
-cd / && sudo ln -s ~/exports-0613/ exports
-
-
-sudo mount -t cifs -o username="jiawan04",password="windows passwd" //apshanas02.shanghai.arm.com/projects /apshanas02-projects
- sudo mount -t cifs -o username="jiawan04",passwor="" //apshanas01.shanghai.arm.com/public/IVG ivg
-cd / && sudo ln -s /apshanas02-projects/ivg/AssertiveCamera/exports
-
-//apshanas02.shanghai.arm.com/projects /apshanas02-projects cifs username=<jiawan04>,password=<windows passwd> 0 0
-
-\\apshanas01.shanghai.arm.com\public\IVG
-\\apshanas02.shanghai.arm.com\projects
-
-\\apshanas01.shanghai.arm.com\public\IVG\Documents_3rdParty\CIS&modules\OVT_17'Q3_OV16Bxx_16M_1.12um_2x1(type2)+gyro+zzHDR\module_A1581_r1
-
-
-Server
-192.168.60.21
-
-find  algo_libs/ -name "*.o" -print0 | xargs -0 ./avstack.pl
-
-C:\Disk_E\fsm-editor
-java -jar fsm-editor.jar
-
-
-set bootargs console=ttyAMA0,115200n8 root=/dev/sda2 rw rootwait earlycon=pl011,0x7ff80000 debug systemd.log_target=null user_debug=31 androidboot.hardware=juno loglevel=9 mem=1g memmap=1g$7g
-env save;boot
-
-Propose: output DMA add ready bit. If ready bit is not set, DMA does not output.
-
-
-concur pin
-137165
-
-100Mhz
-1024 bytes
-readl£∫ 88
-readl_relaxed:52
-readb: 84
-readb_relaxed:52
-
-
-run stratix
-itagconfig
-make load_sof load_elf && nios2-terminal -i 0
-
-
-Windows ACT CMD
-cd C:\Disk_E\act-3.2.6.0-x86_64-win32
-
-act-server.exe --hw-channel i2c --devices 
-act-server.exe --hw-channel i2c --fw-acc hw
-
-act-server.exe --hw-acc direct --fw-acc hw
-act-server.exe --fw-acc hw
-
-./act-server --hw-channel i2c --devices
-./act-server --hw-channel i2c --fw-acc hw
-
-browse
-http://10.169.20.64:8000/
-Need:
-Upload new XML file
-Upload new firmware API
-
-
-
-
-
-subst e: C:\Disk_E
-subst f: C:\Disk_F
-
-
-
-
-
-
-https://apical-imaging.com/7353772/
-l: djiup
-pass: gier2Wua
-
-
-
-
-
-
-mount -o nolock 10.169.20.66:/home/wangjl/image/nfs test
-scp -r img/  wangjl@10.169.20.66:/home/wangjl/image/nfs
-scp -r IMG_RAW  wangjl@10.169.20.66:/home/wangjl/image/nfs/img
-  
 
 
 
@@ -300,7 +170,7 @@ sed -i "s/ ;/;/g" `grep   -rl .`
 
 
 
-sed -i "s/‘≠◊÷∑˚¥Æ/–¬◊÷∑˚¥Æ/g" `grep ‘≠◊÷∑˚¥Æ -rl À˘‘⁄ƒø¬º`
+sed -i "s/ÂéüÂ≠óÁ¨¶‰∏≤/Êñ∞Â≠óÁ¨¶‰∏≤/g" `grep ÂéüÂ≠óÁ¨¶‰∏≤ -rl ÊâÄÂú®ÁõÆÂΩï`
 
 sed -i "s/imx377/imx298/g" `grep imx377 -rl .`
 sed -i "s/ \{0,100\}\t\{0,100\} \{0,100\}$//g" `grep " \{1,100\}" -rl .`
@@ -537,7 +407,7 @@ adb shell logcat
 
 adb pull /etc/dms.cfg .
 vim dms.cfg
-	edit  °∞overlay_count=0°±
+	edit  ‚Äúoverlay_count=0‚Äù
 adb push dms.cfg /etc/
 adb shell sync
 
@@ -550,7 +420,7 @@ cd /project/yellowstoneB0/
 . build/envsetup.sh
 chooseproduct yellowstone
 cd vendor/marvell/generic/cameraengine
-mm ®CB
+mm ‚ÄìB
 
 The output binaries is 
 ../../../../out/target/product/yellowstone/system/bin/MrvlCameraDemo
@@ -1719,15 +1589,15 @@ change the file name from txt to txtd
 find ./ -name "*.txt" -exec mv "{}" "{}d" /;
 
 
-»•≥˝\n
+ÂéªÈô§\n
 :%s/\n^$//g
 :%s/mac//g
 :%s{\([a-z]\)\n\([a-z ]\){\1 \2{
-cat txt | grep -v ◊÷∑˚ | grep -v '◊÷∑˚ >  new.txt 
+cat txt | grep -v Â≠óÁ¨¶ | grep -v 'Â≠óÁ¨¶ >  new.txt 
 
-sed -i "s/‘≠◊÷∑˚¥Æ/–¬◊÷∑˚¥Æ/g" `grep ‘≠◊÷∑˚¥Æ -rl À˘‘⁄ƒø¬º`
+sed -i "s/ÂéüÂ≠óÁ¨¶‰∏≤/Êñ∞Â≠óÁ¨¶‰∏≤/g" `grep ÂéüÂ≠óÁ¨¶‰∏≤ -rl ÊâÄÂú®ÁõÆÂΩï`
 sed -i "s/20 * SZ_1M/30 * SZ_1M/g" `grep 20 * SZ_1M -rl .`
-sed -i "s/CONFIG_MARVELL_MEDIA_MMU/CONFIG_MARVELL_CAMERA_MMU/g" `grep ‘≠ -rl À˘‘⁄ƒø¬º`
+sed -i "s/CONFIG_MARVELL_MEDIA_MMU/CONFIG_MARVELL_CAMERA_MMU/g" `grep Âéü -rl ÊâÄÂú®ÁõÆÂΩï`
 sed -i "s/trace_printk(/printk(KERN_ERR /g" `grep trace_printk -rl drivers/media/platform`
 
 
@@ -2315,7 +2185,7 @@ echo 50000 > /sys/kernel/debug/tracing/buffer_size_kb
 adb shell cat /sys/kernel/debug/tracing/trace | tee trace_irq.txt
 
 adb shell cat /sys/kernel/debug/tracing/trace | tee trace_log1.txt
-adb -s PXA1908DKBV10N060°°shell cat /sys/kernel/debug/tracing/trace | tee trace_log1.txt
+adb -s PXA1908DKBV10N060„ÄÄshell cat /sys/kernel/debug/tracing/trace | tee trace_log1.txt
 
 
 adb shell mkdir -p /data/log/camera
@@ -2867,7 +2737,7 @@ http://lwn.net/Articles/396657/
 http://blog.csdn.net/21cnbao/article/details/7309757
 
 
-ÕıΩ®¿÷
+ÁéãÂª∫‰πê
 330324198312313699
 2600.24
 2568.47
@@ -3274,4 +3144,4 @@ sensor, vcm not handle in interrupt
 the codes of ISP are improved that the customer directly uses them with min change.
 
 On Track	18/12/2018	31/12/2018	
-ØΩ
+Óá≤
