@@ -288,9 +288,6 @@ uboot
 http://git.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary
 
 
-synergy
-7B76313B62617369633B736F7068696520207765693B313B736F706869652E7765694061726D2E636F6D3B3B3B7D
-
 
 
 
