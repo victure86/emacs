@@ -6,6 +6,7 @@ sudo passwd
 sudo no
 vim /etc/sudoers
 #%sudo  ALL=(ALL:ALL) ALL
+user ALL = NOPASSWD: ALL
 wangjl ALL = NOPASSWD: ALL
 
 
@@ -77,7 +78,7 @@ showmount -e
 sudo /etc/init.d/nfs-kernel-server restart
 
 test:
-sudo mount -o nolock 10.169.20.25:/home/wangjl/image/nfs test
+sudo mount -o nolock 10.169.20.25:/home/wangjl/image/nfs nfs
 sudo umount test
 
 
@@ -248,7 +249,6 @@ git clone https://github.com/capitaomorte/yasnippet.git
 open source
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git
 git clone git://github.com/RT-Thread/rt-thread.git
-git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git
 https://git.linaro.org/kernel/linux-linaro-stable.git/
 git clone git://git.kernel.org/pub/scm/virt/kvm/qemu-kvm.git
 git clone git://git.kernel.org/pub/scm/virt/kvm/kvm.git
@@ -267,6 +267,8 @@ git clone git://libvirt.org/libvirt.git
 git clone git://libhugetlbfs.git.sourceforge.net/gitroot/libhugetlbfs/libhugetlbfs
 git clone git://github.com/libhugetlbfs/libhugetlbfs
 git clone git://busybox.net/busybox.git
+
+git clone git@gitlab.freedesktop.org:mesa/mesa.git
 
 git clone git://git.linuxtv.org//v4l-utils.git
 
@@ -288,6 +290,9 @@ uboot
 http://git.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary
 
 
+synergy
+7B76313B62617369633B736F7068696520207765693B313B736F706869652E7765694061726D2E636F6D3B3B3B7D
+
 
 
 
@@ -296,3 +301,112 @@ dstat
 latencytop/powertop
 trace-cmd/kernelshark
 systemtap 
+
+
+
+
+
+
+
+
+update gcc
+LD_LIBRARY_PATH=/usr/local/lib64/:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-4.9 g++-4.9
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 10   
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 20 
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 10 
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 20 
+sudo update-alternatives --config gcc
+sudo update-alternatives --config g++
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 30 
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 30 
+sudo update-alternatives --config gcc
+sudo update-alternatives --config g++
+
+
+sudo ppa-purge ppa:ubuntu-toolchain-r/test
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-4.9
+sudo apt-get install lib32stdc++-4.9-dev
+sudo apt-get install lib32gcc-4.9-dev
+sudo apt-get install libgcc-4.9-dev
+sudo apt-get install libc++-dev
+sudo apt-get install libc-dev
+
+sudo apt-get install libgcc-5-dev
+
+
+
+pushd /usr/lib/x86_64-linux-gnu
+sudo rm libstdc++.so.6
+sudo ln -s libstdc++.so.6.0.21 libstdc++.so.6
+popd
+ls -l /usr/lib/x86_64-linux-gnu/libstdc*
+
+
+pushd /usr/lib/x86_64-linux-gnu
+sudo rm libstdc++.so.6
+sudo ln -s libstdc++.so.6.0.25 libstdc++.so.6
+popd
+ls -l /usr/lib/x86_64-linux-gnu/libstdc*
+
+
+
+https://askubuntu.com/questions/777803/apt-relocation-error-version-glibcxx-3-4-21-not-defined-in-file-libstdc-so-6/777814
+sudo apt-add-repository --remove ppa:ubuntu-toolchain-r/test
+sudo apt-get clean
+sudo apt-get update
+sudo apt-get install -f
+sudo dpkg -a --configure
+sudo apt-get dist-upgrade
+
+
+cmake
+solution1
+sudo apt-get install build-essential
+wget http://www.cmake.org/files/v3.5/cmake-3.5.2.tar.gz
+tar xf cmake-3.5.2.tar.gz
+cd cmake-3.5.2
+./configure
+make
+sudo apt-get install checkinstall
+sudo checkinstall
+sudo make install
+
+solution2
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:george-edison55/cmake-3.x
+sudo apt-get update
+sudo apt-get install cmake
+
+
+clang
+sudo apt-get install clang-3.8 llvm
+sudo rm /usr/bin/clang
+sudo rm /usr/bin/clang++
+sudo ln -s /usr/bin/clang-3.8 /usr/bin/clang
+sudo ln -s /usr/bin/clang++-3.8 /usr/bin/clang++
+sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.8 10   
+sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.9 20 
+sudo update-alternatives --config clang
+
+sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.8 10 
+sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.9 20 
+sudo update-alternatives --config clang++
+
+sudo update-alternatives --install /usr/bin/llvm-ar llvm-ar /usr/bin/llvm-ar-3.8 10   
+sudo update-alternatives --install /usr/bin/llvm-ar llvm-ar /usr/bin/llvm-ar-3.9 20 
+sudo update-alternatives --config llvm-ar
+
+
+git
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
