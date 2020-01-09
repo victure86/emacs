@@ -1,9 +1,8 @@
-copy emacs to ~/.emacs
+1. move this folder to ~/.emacs.d
+2. copy emacs in ~/.emacs.d to ~/.emacs
 
-purcell
-git clone https://github.com/purcell/emacs.d.git
-git clone https://github.com/eschulte/emacs24-starter-kit.git
 
+to plugins folder and clone the below git
 git clone https://github.com/auto-complete/auto-complete.git
 git clone https://github.com/auto-complete/popup-el.git
 git clone https://github.com/auto-complete/fuzzy-el.git

@@ -5,6 +5,9 @@
 (require 'xcscope)
 (setq tags-file-name "./TAGS")
 
+;;define M-. and M-* for emacs 25.0
+(define-key global-map "\M-*" 'pop-tag-mark)
+
 ;;color theme
 (require 'color-theme)
 (color-theme-initialize)
